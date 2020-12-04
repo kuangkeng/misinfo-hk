@@ -1,0 +1,125 @@
+/* Core HTML */
+html,body{max-width:100%;overflow-x: hidden;}
+body{color:#212121;background:rgba(239,235,233 ,1);}
+h1{text-shadow:2px 2px 0 rgba(62,39,35 ,1)}
+h1,h2{font-family:'Old Standard TT',serif!important;font-weight:900!important;}
+
+blockquote {
+	border-left: 3px solid #00CC8F;
+	padding-left:20px;
+	color:#666;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-style: italic;
+}
+.scroll-text blockquote p{
+	font-size:16px!important;
+}
+
+
+
+
+/* UIkit Overwrite */
+.uk-height-viewport {
+	height: calc(var(--vh, 1vh) * 100) !important;
+	min-height: calc(var(--vh, 1vh) * 100) !important;
+	max-height: calc(var(--vh, 1vh) * 100) !important;
+}
+.uk-text-shadow{font-family:'Old Standard TT', serif;text-shadow:2px 2px 0 rgba(62,39,35 ,1);}
+.uk-text-danger{color:#f44336!important}
+.uk-alert-primary{color:#000!important;background:#ccc;}
+.uk-alert-secondary{color:#fff;background:#000;}
+
+
+/* Custom styles */
+#intro p{font-weight:400;}
+#intro .uk-text-large{font-weight:300;}
+
+
+
+
+
+/* Responsive */
+@media (max-width: 1600px){
+	iframe,.uk-video-play{width:1280px;height:720px;}
+}
+
+@media (max-width: 1280px){
+	iframe,.uk-video-play{width:1024px;height:576px;}
+}
+
+@media (max-width: 1024px){
+	iframe,.uk-video-play{width:768px;height:432px;}
+}
+
+@media (max-width: 768px){
+	iframe,.uk-video-play{width:480px;height:270px;}
+	.uk-card-small.uk-card-body{padding:15px!important;}
+}
+
+@media (max-width: 480px){
+	iframe,.uk-video-play{width:480px;height:270px;}
+	.uk-card-small.uk-card-body{padding:10px!important;}
+}
+
+@media (max-width: 320px){
+	iframe,.uk-video-play{width:320px;height:180px;}
+	.uk-card-small.uk-card-body{padding:5px!important;}
+}
+
+
+
+/* Map and scrolling text */
+
+#map {
+	position: relative;
+	z-index: 0 !important;
+}
+
+.scroll-text{border:1px solid #ddd;}
+.scroll-text h3{margin:0;font-size:14px;font-weight:bold;}
+.scroll-text .uk-text-meta{color:#666;margin:0 0 10px 0;font-size:10px!important;letter-spacing:0.5px;}
+.scroll-text time{color:#f44336;font-size:20px;font-weight:300;line-height:0.8em;}
+.scroll-text time span:first-child{display:block;color:#212121;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:5px;font-weight:500;}
+.scroll-text time span:last-child{font-size:12px;text-transform:uppercase;font-weight:500;}
+.scroll-text .uk-label{background:#f44336;font-size:12px;font-weight:300;}
+.scroll-text p{margin:0;font-size:14px;}
+
+@media screen and (max-width: 500px) {
+	.scroll-text,.scroll-text-margin {
+		margin-bottom: 550px !important;
+	}
+	.scroll-text.scroll-break {
+		margin-bottom: 0 !important;
+	}
+
+	.scroll-text,
+	blockquote p {
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-width: 501px) {
+	.scroll-text,.scroll-text-margin{margin-bottom: 650px !important;}
+	.scroll-text h3{font-size:18px;}
+	.scroll-text p{font-size:18px;}
+	.scroll-text.scroll-break {
+		margin-bottom: 0 !important;
+		width:100%!important;
+	}
+
+	.scroll-text,
+	blockquote p {
+		font-size: 16px;
+	}
+}
+
+.leaflet-tooltip-top:before,
+.leaflet-tooltip-bottom:before,
+.leaflet-tooltip-left:before,
+.leaflet-tooltip-right:before,
+.leaflet-tooltip {
+	border: none !important;
+	background-color: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+}
