@@ -41,6 +41,7 @@ blockquote {
 /* Responsive */
 @media (max-width: 1600px){
 	iframe,.uk-video-play{width:1280px;height:720px;}
+	.uk-text-large{font-size: 1.25rem;}
 }
 
 @media (max-width: 1280px){
