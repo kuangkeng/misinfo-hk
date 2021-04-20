@@ -100,9 +100,9 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map-3'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("../img/fire-bus-photo.jpg");
+      transition_changeshot("./img/fire-bus-photo.jpg");
     } else {
-      transition_changeshot("../img/fire-bus-global-times-chinese-webpage.jpg");}},offset: offsetVal,}
+      transition_changeshot("./img/fire-bus-global-times-chinese-webpage.jpg");}},offset: offsetVal,}
   );
 
   new Waypoint({
@@ -120,9 +120,9 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map-6'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("../img/fire-bus-global-times-english-webpage.jpg");
+      transition_changeshot("./img/fire-bus-global-times-english-webpage.jpg");
     } else {      
-      transition_hidechangeshot("../img/fire-bus-photo.jpg");
+      transition_hidechangeshot("./img/fire-bus-photo.jpg");
     }},offset: offsetVal,}
   );
 
@@ -140,9 +140,9 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map-8'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("../img/fire-bus-sina-chinese-webpage.jpg");
+      transition_changeshot("./img/fire-bus-sina-chinese-webpage.jpg");
     } else {
-      transition_hidechangeshot("../img/fire-bus-global-times-english-webpage.jpg");
+      transition_hidechangeshot("./img/fire-bus-global-times-english-webpage.jpg");
     }},offset: offsetVal,}
   );
 
@@ -169,39 +169,39 @@ const offsetVal = '90%';
       transition_chart_2("#case1-5","#g-ai0-5");
       transition_chart_2("#case1-6","#g-ai0-6");
       transition_chart_2("#case1-7","#g-ai0-7");
-      transition_changeshot("../img/fire-bus-sinchew-original-title-fb.jpg");
+      transition_changeshot("./img/fire-bus-sinchew-original-title-fb.jpg");
     } else {
       transition_chart_2("","","#case1-5","#g-ai0-5");
       transition_chart_2("","","#case1-6","#g-ai0-6");
       transition_chart_2("","","#case1-7","#g-ai0-7");
-      transition_hidechangeshot("../img/fire-bus-sina-chinese-webpage.jpg");
+      transition_hidechangeshot("./img/fire-bus-sina-chinese-webpage.jpg");
       }},offset: offsetVal,}
   );
 
   new Waypoint({
     element: document.getElementById('map-11'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("../img/fire-bus-sinchew-fb-edit-history.png");
+      transition_changeshot("./img/fire-bus-sinchew-fb-edit-history.png");
     } else {
-      transition_changeshot("../img/fire-bus-sinchew-original-title-fb.jpg");
+      transition_changeshot("./img/fire-bus-sinchew-original-title-fb.jpg");
       }},offset: offsetVal,}
   );
 
   new Waypoint({
     element: document.getElementById('map-12'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("../img/fire-bus-sinchew-corrected-title-fb.jpg");
+      transition_changeshot("./img/fire-bus-sinchew-corrected-title-fb.jpg");
     } else {
-      transition_changeshot("../img/fire-bus-sinchew-fb-edit-history.png");
+      transition_changeshot("./img/fire-bus-sinchew-fb-edit-history.png");
       }},offset: offsetVal,}
   );
   
   new Waypoint({
     element: document.getElementById('map-13'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("../img/fire-bus-sinchew-apology-fb.jpg");
+      transition_changeshot("./img/fire-bus-sinchew-apology-fb.jpg");
     } else {
-      transition_changeshot("../img/fire-bus-sinchew-corrected-title-fb.jpg");
+      transition_changeshot("./img/fire-bus-sinchew-corrected-title-fb.jpg");
       }},offset: offsetVal,}
   );
 
@@ -226,9 +226,9 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map-16-1'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("../img/fire-bus-penanglang-fb-page.jpg");
+      transition_changeshot("./img/fire-bus-penanglang-fb-page.jpg");
     } else {
-      transition_hidechangeshot("../img/fire-bus-sinchew-apology-fb.jpg");
+      transition_hidechangeshot("./img/fire-bus-sinchew-apology-fb.jpg");
       }},offset: offsetVal,}
   );
 
@@ -246,9 +246,9 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map-17-1'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("../img/fire-bus-komnitikuantan-fb.jpg");
+      transition_changeshot("./img/fire-bus-komnitikuantan-fb.jpg");
     } else {
-      transition_hidechangeshot("../img/fire-bus-penanglang-fb-page.jpg");
+      transition_hidechangeshot("./img/fire-bus-penanglang-fb-page.jpg");
       }},offset: offsetVal,}
   );
 
@@ -266,27 +266,27 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map-18-1'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("../img/fire-bus-nanyang-webpage.jpg");
+      transition_changeshot("./img/fire-bus-nanyang-webpage.jpg");
     } else {
-      transition_hidechangeshot("../img/fire-bus-komnitikuantan-fb.jpg");
+      transition_hidechangeshot("./img/fire-bus-komnitikuantan-fb.jpg");
       }},offset: offsetVal,}
   );
 
   new Waypoint({
     element: document.getElementById('map-19'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("../img/fire-bus-nanyang-fb.jpg");
+      transition_changeshot("./img/fire-bus-nanyang-fb.jpg");
     } else {
-      transition_changeshot("../img/fire-bus-nanyang-webpage.jpg");
+      transition_changeshot("./img/fire-bus-nanyang-webpage.jpg");
       }},offset: offsetVal,}
   );
 
   new Waypoint({
     element: document.getElementById('map-20'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("../img/fire-bus-nanyang-edit-history-fb.png");
+      transition_changeshot("./img/fire-bus-nanyang-edit-history-fb.png");
     } else {
-      transition_changeshot("../img/fire-bus-nanyang-fb.jpg");
+      transition_changeshot("./img/fire-bus-nanyang-fb.jpg");
       }},offset: offsetVal,}
   );
   new Waypoint({
@@ -303,9 +303,9 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map-21-1'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("../img/fire-bus-ipohstation-fb.jpg");
+      transition_changeshot("./img/fire-bus-ipohstation-fb.jpg");
     } else {
-      transition_hidechangeshot("../img/fire-bus-nanyang-edit-history-fb.png");
+      transition_hidechangeshot("./img/fire-bus-nanyang-edit-history-fb.png");
       }},offset: offsetVal,}
   );
 
@@ -323,18 +323,18 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map-26'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("../img/fire-bus-orientaldaily-original-title-webpage.jpg");
+      transition_changeshot("./img/fire-bus-orientaldaily-original-title-webpage.jpg");
     } else {
-      transition_hidechangeshot("../img/fire-bus-ipohstation-fb.jpg");
+      transition_hidechangeshot("./img/fire-bus-ipohstation-fb.jpg");
       }},offset: offsetVal,}
   );
 
   new Waypoint({
     element: document.getElementById('map-27'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("../img/fire-bus-orientaldaily-fb.jpg");
+      transition_changeshot("./img/fire-bus-orientaldaily-fb.jpg");
     } else {
-      transition_changeshot("../img/fire-bus-orientaldaily-original-title-webpage.jpg");
+      transition_changeshot("./img/fire-bus-orientaldaily-original-title-webpage.jpg");
       }},offset: offsetVal,}
   );
   
@@ -349,6 +349,6 @@ const offsetVal = '90%';
       transition_chart_2("#case1-10","#g-ai0-10","#case1-6","#g-ai0-6");
       transition_chart_2("#case1-11");
       transition_chart_2("#case1-12");
-      transition_changeshot("../img/fire-bus-orientaldaily-fb.jpg");
+      transition_changeshot("./img/fire-bus-orientaldaily-fb.jpg");
     }},offset: offsetVal,}
   );
