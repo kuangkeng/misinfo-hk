@@ -71,7 +71,9 @@ new Waypoint({
   function transition_changeshot(img) {
     $(".screenshot-background").fadeOut(500, function(){
       $(".screenshot-img").attr("src",img);
-      $(".screenshot-background").fadeIn(500);
+      $(".screenshot-img").on('load',function(){
+        $(".screenshot-background").fadeIn(500);
+      });
     });
     console.log("show shot,change img");
   } 
