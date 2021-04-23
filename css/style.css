@@ -1,8 +1,8 @@
 /* Core HTML */
 html,body{max-width:100%;overflow-x: hidden;}
 body{color:#212121;background:rgba(239,235,233 ,1);}
-h1{text-shadow:2px 2px 0 rgba(62,39,35 ,1)}
-h1,h2{font-family:'Old Standard TT',serif!important;font-weight:900!important;}
+h1{text-shadow:2px 2px 0 rgba(255,236,179 ,1)}
+h1,h2{font-family:'Newsreader',serif!important;font-weight:700!important;}
 
 /* SYTLING FOR TOP GRAPHIC */
 #headline-container {
@@ -137,7 +137,7 @@ blockquote {
 	min-height: calc(var(--vh, 1vh) * 100) !important;
 	max-height: calc(var(--vh, 1vh) * 100) !important;
 }
-.uk-text-shadow{font-family:'Old Standard TT', serif;text-shadow:2px 2px 0 rgba(62,39,35 ,1);}
+.uk-text-shadow{font-family:'Newsreader', serif;text-shadow:2px 2px 0 rgba(62,39,35 ,1);}
 .uk-text-danger{color:#f44336!important}
 .uk-alert-primary{color:#000!important;background:#ccc;}
 .uk-alert-secondary{color:#fff;background:#000;}
