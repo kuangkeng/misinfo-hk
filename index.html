@@ -2,9 +2,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBK6KCW" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
 <title>The Hong Kong infowar in Malaysia | Malaysiakini</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
@@ -32,69 +29,55 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/js/uikit.min.js" charset="utf-8"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/js/uikit-icons.min.js" charset="utf-8"></script>
-
-<script>
-			// First we get the viewport height and we multiple it by 1% to get a value for a vh unit
-			let vh = window.innerHeight * 0.01;
-			// Then we set the value in the --vh custom property to the root of the document
-			document.documentElement.style.setProperty('--vh', `${vh}px`);
-			// We listen to the resize event
-			window.addEventListener('resize', () => {
-				// We execute the same script as before
-				let vh = window.innerHeight * 0.01;
-				document.documentElement.style.setProperty('--vh', `${vh}px`);
-			});
-</script>
-
 </head>
 <body>
 <div style="position: relative;">
-<nav class="uk-navbar uk-navbar-container uk-navbar-transparent" style="background:rgba(0,0,0,.2);" uk-navbar uk-sticky>
-<div class="uk-navbar-left">
-<div class="uk-navbar-item uk-logo">
-<a href="https://www.malaysiakini.com/en"><img src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB3aWR0aD0iMTkycHgiIGhlaWdodD0iMTkycHgiIHZpZXdCb3g9IjAgMCAxOTIgMTkyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxOTIgMTkyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cmVjdCBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIvPgoJPGc+CgkJPHBvbHlnb24gZmlsbD0iI0YwNkMyNCIgcG9pbnRzPSIxNjUuMzMzLDEzNi45NjggMTM3LjEzMiwxMDYuNTIgMTYyLjMyMSw3OC40OTUgMTQzLjg5Niw3OC40OTUgMTE5LjMyNywxMDYuNTIgMTQ3LjEyLDEzNi45NjggCQkKCQkJIi8+CgkJPGc+CgkJCTxwYXRoIGZpbGw9IiMyODI0NjAiIGQ9Ik0xMTYuMTQ5LDk4LjIyOWMwLTQuNzYxLTAuODk0LTguMzQ2LTEuOTYzLTEwLjc1OWMtMS4zOC0zLjExNy0zLjY0OC01LjY0My02LjgwNC03LjU3OAoJCQkJYy0xLjgwMy0xLjEwNS0zLjc3NC0xLjg4My01LjkwNC0yLjM1N2MtMS41OTktMC4zNTUtMy4yODQtMC41NDQtNS4wNjctMC41NDRjLTQuMDE2LDAtNy43MTgsMC44OTYtMTEuMTA2LDIuNjg4CgkJCQljLTMuMzg4LDEuNzkyLTYuMjQ4LDQuNDA3LTguNTc4LDcuODQ2Yy0xLjc5My0zLjQzOS00LjE1OS02LjA1NS03LjEtNy44NDZzLTYuMjM5LTIuNjg4LTkuODk2LTIuNjg4CgkJCQljLTMuNjIyLDAtNi45NjYsMC42ODEtMTAuMDMxLDIuMDQyYy0zLjA2NSwxLjM2Mi01Ljg1NCwzLjQyMi04LjM2Myw2LjE4MXYtOC41NkgyNi42Njd2NjAuMzE1aDE0LjY3MnYtMjYuMDExCgkJCQljMC01LjYyNSwwLjQ5NC05Ljc0NiwxLjQ4Mi0xMi4zNjFjMC45ODctMi42MTUsMi40NzctNC42NDksNC40NzEtNi4xYzEuOTkzLTEuNDUxLDQuMjExLTIuMTc3LDYuNjUzLTIuMTc3CgkJCQljMi4xOSwwLDQuMDU4LDAuNTczLDUuNjAzLDEuNzJjMS41NDQsMS4xNDcsMi43MDMsMi44OTQsMy40NzUsNS4yNGMwLjc3MiwyLjM0OCwxLjE1OCw2LjEzNywxLjE1OCwxMS4zNjd2MjguMzIyaDE0Ljc4VjExMC41OAoJCQkJYzAtNS41OSwwLjQ4NC05LjY0NywxLjQ1MS0xMi4xNzNjMC45NjgtMi41MjYsMi40NDYtNC41MDUsNC40MzQtNS45MzljMS45ODgtMS40MzIsNC4yMzYtMi4xNDksNi43NDUtMi4xNDkKCQkJCWMzLjI5NiwwLDUuNzY5LDEuMTc0LDcuNDE3LDMuNTJjMS42NDcsMi4zNDcsMi40NzIsNi44MzUsMi40NzIsMTMuNDYzdjI5LjY2NmgwLjAwMWgxNC42NzFoMC4xMDcKCQkJCUMxMTYuMjU3LDEzNi45NjgsMTE2LjE0OSwxMDguMTMyLDExNi4xNDksOTguMjI5eiIvPgoJCTwvZz4KCQk8Zz4KCQkJPHBhdGggZmlsbD0iI0YwNkMyNCIgZD0iTTEwOS43OSw3My41MWMwLjMyNiwwLjIsMC42MzMsMC40MTQsMC45NDQsMC42MjVjMC43OTIsMC40OTQsMS41NCwxLjA1OSwyLjIxNSwxLjY5NwoJCQkJYzEuMjEsMS4wNSwyLjI3OSwyLjIwMiwzLjIsMy40NTdWNTUuMDMyaC0xNC42NzFWNzAuMzljMC4zMzQsMC4wNjEsMC42NywwLjEyLDEsMC4xOTMKCQkJCUMxMDUuMTIxLDcxLjE3MSwxMDcuNTgxLDcyLjE1NiwxMDkuNzksNzMuNTF6Ii8+CgkJPC9nPgoJPC9nPgo8L2c+Cjwvc3ZnPg==" width="50" height="50" alt="Malaysiakini"></a>
-</div>
-<ul class="uk-navbar-nav uk-margin-right uk-visible@s">
-<li><a href="#local-media" uk-scroll="offset:80">Local media</a></li>
-<li><a href="#facebook-pages" uk-scroll="offset:80">Facebook pages</a></li>
-<li><a href="#chinese-embassy" uk-scroll="offset:80">Chinese embassy</a></li>
-<li class="uk-visible@m"><a href="#methodology" uk-scroll="offset:80">Methodology</a></li>
-<li class="uk-visible@m"><a href="#limitations" uk-scroll="offset:80">Limitations</a></li>
-<li><a href="#our-data" uk-scroll="offset:80">Our data</a></li>
-</ul>
-</div>
-<div class="uk-navbar-right">
-<ul class="uk-navbar-nav uk-margin-right">
-<li class="uk-active uk-hidden"><a href="../en/">EN</a></li>
-<li><a href="../my/">BM</a></li>
-<li><a href="../zh">中文</a></li>
-</ul>
-<a href="#modal-menu" class="uk-navbar-item uk-hidden@s" uk-toggle><span uk-icon="icon:menu;ratio:2;"></span></a>
-<div id="modal-menu" class="uk-modal-full" uk-modal>
-<div class="uk-modal-dialog uk-flex uk-flex-middle uk-flex-center" uk-height-viewport>
-<button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-<ul class="uk-list uk-list-large">
-<li class="uk-nav-header">On this page</li>
-<li><a href="#local-media" class="uk-button uk-button-text uk-text-large" uk-scroll="offset:80" uk-toggle="#modal-menu">Local media</a></li>
-<li><a href="#facebook-pages" class="uk-button uk-button-text uk-text-large" uk-scroll="offset:80" uk-toggle="#modal-menu">Facebook pages</a></li>
-<li><a href="#chinese-embassy" class="uk-button uk-button-text uk-text-large" uk-scroll="offset:80" uk-toggle="#modal-menu">Chinese embassy</a></li>
-<li><a href="#methodology" class="uk-button uk-button-text uk-text-large" uk-scroll="offset:80" uk-toggle="#modal-menu">Methodology</a></li>
-<li><a href="#limitations" class="uk-button uk-button-text uk-text-large" uk-scroll="offset:80">Limitations</a></li>
-<li><a href="#our-data" class="uk-button uk-button-text uk-text-large" uk-scroll="offset:80">Our data</a></li>
-</ul>
-</div>
-</div>
-</div>
+<nav class="uk-navbar uk-navbar-container uk-navbar-transparent uk-light" style="background:rgba(0,0,0,.2);" uk-navbar uk-sticky>
+	<div class="uk-navbar-left">
+	<div class="uk-navbar-item uk-logo">
+	<a href="https://www.malaysiakini.com/en"><img src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB3aWR0aD0iMTkycHgiIGhlaWdodD0iMTkycHgiIHZpZXdCb3g9IjAgMCAxOTIgMTkyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxOTIgMTkyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cmVjdCBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIvPgoJPGc+CgkJPHBvbHlnb24gZmlsbD0iI0YwNkMyNCIgcG9pbnRzPSIxNjUuMzMzLDEzNi45NjggMTM3LjEzMiwxMDYuNTIgMTYyLjMyMSw3OC40OTUgMTQzLjg5Niw3OC40OTUgMTE5LjMyNywxMDYuNTIgMTQ3LjEyLDEzNi45NjggCQkKCQkJIi8+CgkJPGc+CgkJCTxwYXRoIGZpbGw9IiMyODI0NjAiIGQ9Ik0xMTYuMTQ5LDk4LjIyOWMwLTQuNzYxLTAuODk0LTguMzQ2LTEuOTYzLTEwLjc1OWMtMS4zOC0zLjExNy0zLjY0OC01LjY0My02LjgwNC03LjU3OAoJCQkJYy0xLjgwMy0xLjEwNS0zLjc3NC0xLjg4My01LjkwNC0yLjM1N2MtMS41OTktMC4zNTUtMy4yODQtMC41NDQtNS4wNjctMC41NDRjLTQuMDE2LDAtNy43MTgsMC44OTYtMTEuMTA2LDIuNjg4CgkJCQljLTMuMzg4LDEuNzkyLTYuMjQ4LDQuNDA3LTguNTc4LDcuODQ2Yy0xLjc5My0zLjQzOS00LjE1OS02LjA1NS03LjEtNy44NDZzLTYuMjM5LTIuNjg4LTkuODk2LTIuNjg4CgkJCQljLTMuNjIyLDAtNi45NjYsMC42ODEtMTAuMDMxLDIuMDQyYy0zLjA2NSwxLjM2Mi01Ljg1NCwzLjQyMi04LjM2Myw2LjE4MXYtOC41NkgyNi42Njd2NjAuMzE1aDE0LjY3MnYtMjYuMDExCgkJCQljMC01LjYyNSwwLjQ5NC05Ljc0NiwxLjQ4Mi0xMi4zNjFjMC45ODctMi42MTUsMi40NzctNC42NDksNC40NzEtNi4xYzEuOTkzLTEuNDUxLDQuMjExLTIuMTc3LDYuNjUzLTIuMTc3CgkJCQljMi4xOSwwLDQuMDU4LDAuNTczLDUuNjAzLDEuNzJjMS41NDQsMS4xNDcsMi43MDMsMi44OTQsMy40NzUsNS4yNGMwLjc3MiwyLjM0OCwxLjE1OCw2LjEzNywxLjE1OCwxMS4zNjd2MjguMzIyaDE0Ljc4VjExMC41OAoJCQkJYzAtNS41OSwwLjQ4NC05LjY0NywxLjQ1MS0xMi4xNzNjMC45NjgtMi41MjYsMi40NDYtNC41MDUsNC40MzQtNS45MzljMS45ODgtMS40MzIsNC4yMzYtMi4xNDksNi43NDUtMi4xNDkKCQkJCWMzLjI5NiwwLDUuNzY5LDEuMTc0LDcuNDE3LDMuNTJjMS42NDcsMi4zNDcsMi40NzIsNi44MzUsMi40NzIsMTMuNDYzdjI5LjY2NmgwLjAwMWgxNC42NzFoMC4xMDcKCQkJCUMxMTYuMjU3LDEzNi45NjgsMTE2LjE0OSwxMDguMTMyLDExNi4xNDksOTguMjI5eiIvPgoJCTwvZz4KCQk8Zz4KCQkJPHBhdGggZmlsbD0iI0YwNkMyNCIgZD0iTTEwOS43OSw3My41MWMwLjMyNiwwLjIsMC42MzMsMC40MTQsMC45NDQsMC42MjVjMC43OTIsMC40OTQsMS41NCwxLjA1OSwyLjIxNSwxLjY5NwoJCQkJYzEuMjEsMS4wNSwyLjI3OSwyLjIwMiwzLjIsMy40NTdWNTUuMDMyaC0xNC42NzFWNzAuMzljMC4zMzQsMC4wNjEsMC42NywwLjEyLDEsMC4xOTMKCQkJCUMxMDUuMTIxLDcxLjE3MSwxMDcuNTgxLDcyLjE1NiwxMDkuNzksNzMuNTF6Ii8+CgkJPC9nPgoJPC9nPgo8L2c+Cjwvc3ZnPg==" width="50" height="50" alt="Malaysiakini"></a>
+	</div>
+	<ul class="uk-navbar-nav uk-margin-right uk-visible@s">
+	<li><a href="#local-media" uk-scroll="offset:80">Local media</a></li>
+	<li><a href="#facebook-pages" uk-scroll="offset:80">Facebook pages</a></li>
+	<li><a href="#chinese-embassy" uk-scroll="offset:80">Chinese embassy</a></li>
+	<li class="uk-visible@m"><a href="#methodology" uk-scroll="offset:80">Methodology</a></li>
+	<li class="uk-visible@m"><a href="#limitations" uk-scroll="offset:80">Limitations</a></li>
+	<li><a href="#our-data" uk-scroll="offset:80">Our data</a></li>
+	</ul>
+	</div>
+	<div class="uk-navbar-right">
+	<ul class="uk-navbar-nav uk-margin-right">
+	<li class="uk-active uk-hidden"><a href="../en/">EN</a></li>
+	<li><a href="../my/">BM</a></li>
+	<li><a href="../zh">中文</a></li>
+	</ul>
+	<a href="#modal-menu" class="uk-navbar-item uk-hidden@s" uk-toggle><span uk-icon="icon:menu;ratio:2;"></span></a>
+	<div id="modal-menu" class="uk-modal-full" uk-modal>
+	<div class="uk-modal-dialog uk-flex uk-flex-middle uk-flex-center" uk-height-viewport>
+	<button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+	<ul class="uk-list uk-list-large">
+	<li class="uk-nav-header">On this page</li>
+	<li><a href="#local-media" class="uk-button uk-button-text uk-text-large" uk-scroll="offset:80" uk-toggle="#modal-menu">Local media</a></li>
+	<li><a href="#facebook-pages" class="uk-button uk-button-text uk-text-large" uk-scroll="offset:80" uk-toggle="#modal-menu">Facebook pages</a></li>
+	<li><a href="#chinese-embassy" class="uk-button uk-button-text uk-text-large" uk-scroll="offset:80" uk-toggle="#modal-menu">Chinese embassy</a></li>
+	<li><a href="#methodology" class="uk-button uk-button-text uk-text-large" uk-scroll="offset:80" uk-toggle="#modal-menu">Methodology</a></li>
+	<li><a href="#limitations" class="uk-button uk-button-text uk-text-large" uk-scroll="offset:80">Limitations</a></li>
+	<li><a href="#our-data" class="uk-button uk-button-text uk-text-large" uk-scroll="offset:80">Our data</a></li>
+	</ul>
+	</div>
+	</div>
+	</div>
 </nav>
 <div class="uk-padding-large uk-padding-remove-left uk-padding-remove-right uk-position-relative" style="z-index: 99";>
 <section class="uk-position-relative">
-<div class="uk-container uk-container-small uk-text-center" id="headline-trigger-1">
-	<h1 class="uk-heading-medium uk-margin-bottom" uk-scrollspy="cls:uk-animation-fade;delay:300;" style="color:#d32f2f;">The Hong Kong infowar in Malaysia</h1>
+<div class="uk-container uk-container-small uk-text-center uk-light" id="headline-trigger-1">
+	<h1 class="uk-heading-large uk-margin-bottom" uk-scrollspy="cls:uk-animation-fade;delay:300;" style="color:#d32f2f;">The Hong Kong infowar in Malaysia</h1>
 	<div class="uk-flex uk-flex-center" uk-scrollspy="cls:uk-animation-slide-right;delay:500;">
 		<hr class="uk-width-small uk-margin-remove uk-text-shadow" style="border-width:3px;border-color:#d32f2f;">
 	</div>
 	<p class="tagline uk-text-lead" style="font-weight:500;" uk-scrollspy="cls:uk-animation-fade;delay:1000;">How ‘fake news’ on the Hong Kong protests reached our shores</p>
-<p style="font-size:12px!important;letter-spacing:1px" uk-scrollspy="cls:uk-animation-fade;delay:1200;">( Published on Dec 13, 2020 )</p>
+	<p style="font-size:12px!important;letter-spacing:1px" uk-scrollspy="cls:uk-animation-fade;delay:1200;">( Published on Dec 13, 2020 )</p>
 </div>
 </section>
 </div>
@@ -102,8 +85,8 @@
 <div uk-height-viewport="offset-bottom: 50" id="placeholder-2"></div>
 
 <div class="uk-height-viewport" id="headline-container" style="z-index: 0;">
-	<div class="headline-layer" id="headline-layer-before" style="background-image:url('./img/headline-before.png');"></div>
-	<div class="headline-layer" id="headline-layer-man" style="background-image:url('./img/headline-man.png');"></div>
+	<div class="headline-layer" id="headline-layer-before" style="background-image:url('./img/headline-before.png'); background-position: bottom center;"></div>
+	<div class="headline-layer" id="headline-layer-man" style="background-image:url('./img/headline-man.png'); background-position: bottom center;"></div>
 	<div class="headline-layer" id="headline-layer-left" style="background-image:url('./img/headline-left.png');"></div>
 	<div class="headline-layer" id="headline-layer-right" style="background-image:url('./img/headline-right.png');"></div>
 	<div class="headline-layer" id="headline-layer-top" style="background-image:url('./img/headline-top.png');"></div>
@@ -1414,11 +1397,23 @@
 </div>
 </footer>
 <section class="uk-section uk-section-default uk-padding-large-bottom">
-<div class="uk-container uk-container-small">
+<!-- <div class="uk-container uk-container-small">
 <div class="OUTBRAIN" data-src="https://pages.malaysiakini.com/may13/en/" data-widget-id="AR_2" data-ob-template="Malaysiakini_1"></div>
-</div>
-<script type="text/javascript" async="async" src="//widgets.outbrain.com/outbrain.js"></script>
+</div> -->
+<!-- <script type="text/javascript" async="async" src="//widgets.outbrain.com/outbrain.js"></script> -->
 </section>
+<script>
+			// First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+			let vh = window.innerHeight * 0.01;
+			// Then we set the value in the --vh custom property to the root of the document
+			document.documentElement.style.setProperty('--vh', `${vh}px`);
+			// We listen to the resize event
+			window.addEventListener('resize', () => {
+				// We execute the same script as before
+				let vh = window.innerHeight * 0.01;
+				document.documentElement.style.setProperty('--vh', `${vh}px`);
+			});
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
 <script type="text/javascript" src="./js/project.js"></script>
 <script type='text/javascript'>
