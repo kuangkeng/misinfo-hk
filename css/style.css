@@ -1,7 +1,7 @@
 /* Core HTML */
 html,body{max-width:100%;overflow-x: hidden;}
 body{color:#212121;background:rgba(239,235,233 ,1);}
-h1{text-shadow:1px 2px 0 rgba(255,236,179 ,1)}
+h1{text-shadow:2px 3px 0 #f2f2f2}
 h1,h2, .uk-text-lead{font-family:'Newsreader',serif!important;font-weight:700!important;}
 h3,p{font-weight:400!important;}
 .uk-light{color: #ffffff;}
@@ -104,11 +104,11 @@ h3,p{font-weight:400!important;}
 /* SYTLING FOR SCREENSHOT */
 .screenshot-box {
 	position:absolute;
-	bottom:2%;
+	top:2%;
 	display:block;
 	z-index: 5;
 	width: auto;
-	max-width: 80% !important;
+	max-width: 25%;
 	max-height: 90%;
 	left: 0;
 	right: 0;
@@ -159,6 +159,12 @@ blockquote {
 
 @media (max-width: 768px){
 	.uk-card-small.uk-card-body{padding:15px!important;}
+	.screenshot-box {
+		max-width: 80%;
+	}
+	#g-hk-misinfo-1-box .g-aiImg {
+		top:-60px;
+	}
 }
 
 @media (max-width: 480px){
@@ -176,7 +182,7 @@ blockquote {
 
 #map {
 	position: relative;
-	z-index: 0 !important;
+	z-index: 999 !important;
 	background: #000;
 }
 
