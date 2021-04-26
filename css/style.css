@@ -2,12 +2,13 @@
 html,body{max-width:100%;overflow-x: hidden;}
 body{color:#212121;background:rgba(239,235,233 ,1);}
 h1{text-shadow:1px 2px 0 rgba(255,236,179 ,1)}
-h1,h2{font-family:'Newsreader',serif!important;font-weight:700!important;}
-h3,p{font-family:'Newsreader',serif!important;font-weight:400!important;}
+h1,h2, .uk-text-lead{font-family:'Newsreader',serif!important;font-weight:700!important;}
+h3,p{font-family:'Newsreader',serif!important;font-weight:500!important;}
 .uk-light{color: #ffffff;}
 .uk-light .uk-text-lead{color: #ffffff;}
 .uk-light .uk-navbar-nav>li>a{color: #ffffff;}
 .uk-light .uk-navbar-item{color: #ffffff;}
+.uk-container-xsmall{max-width: 600px;}
 
 /* SYTLING FOR TOP GRAPHIC */
 #headline-container {
