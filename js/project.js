@@ -1,12 +1,20 @@
+viewportWidth = $(window).width();
+
 //Waypoint transition for top image/headline
 
 new Waypoint({
     element: document.getElementById('headline-trigger-1'),
     handler: direction => {
-        if (direction === 'down') {console.log('monsters come');
-        $("#headline-layer-left").animate({left: '0px'}, 2000);
-        $("#headline-layer-right").animate({right: '0px'}, 2000);
-        $("#headline-layer-top").animate({top: '0px'}, 2000);
+        if (direction === 'down') {console.log('monsters come');        
+          if(viewportWidth<768){
+            $("#headline-layer-left").animate({left: '0px'}, 2000);
+            $("#headline-layer-right").animate({right: '0px'}, 2000);
+            $("#headline-layer-top").animate({top: '0px'}, 2000);
+          } else {
+            $("#headline-layer-left").animate({left: '-10%'}, 2000);
+            $("#headline-layer-right").animate({right: '-10%'}, 2000);
+            $("#headline-layer-top").animate({top: '-50%'}, 2000);
+          }
         $("#headline-layer-man").animate({opacity: 1}, 2000);
         } else {
         console.log('monsters leave');
@@ -16,7 +24,7 @@ new Waypoint({
         $("#headline-layer-man").animate({opacity: 0}, 2000);
         }
     },
-    offset: '-50%',
+    offset: '-10%',
 });
 
 new Waypoint({
