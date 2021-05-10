@@ -172,15 +172,11 @@ blockquote {
 	.screenshot-box {
 		max-width: 80%;
 	}
-	#g-hk-misinfo-1-box .g-aiImg {
-		top:-60px;
-	}
+	.date-box {display: none;}
+	.country-tag {display: none;}
 }
 
 @media (max-width: 480px){
-	.date-box {display: none;}
-	.country-tag {display: none;}
-	.g-aiPointText {padding-top:4%;}
 	.uk-card-small.uk-card-body{padding:10px!important;}
 }
 
