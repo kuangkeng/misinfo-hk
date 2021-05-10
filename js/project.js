@@ -163,13 +163,13 @@ const offsetVal = '90%';
       transition_chart_2("#case1-3","#g-ai0-3","#case1-4","#g-ai0-4");
       transition_chart_2("#case1-3","#g-ai0-3","#case1-5","#g-ai0-5");
       transition_chart_2("#case1-3","#g-ai0-3","#case1-6","#g-ai0-6");
-      transition_chart_2("#case1-3","#g-ai0-3","#case1-7","#g-ai0-7");
+      // transition_chart_2("#case1-3","#g-ai0-3","#case1-7","#g-ai0-7");
     } else {
       transition_showshot();
       transition_chart_2("#case1-4","#g-ai0-4","#case1-3","#g-ai0-3");
       transition_chart_2("#case1-5","#g-ai0-5","#case1-3","#g-ai0-3");
       transition_chart_2("#case1-6","#g-ai0-6","#case1-3","#g-ai0-3");
-      transition_chart_2("#case1-7","#g-ai0-7","#case1-3","#g-ai0-3");
+      // transition_chart_2("#case1-7","#g-ai0-7","#case1-3","#g-ai0-3");
       }},offset: offsetVal,}
   );
 
