@@ -136,6 +136,9 @@ blockquote {
 	font-family: Georgia, Times, "Times New Roman", serif;
 	font-style: italic;
 }
+
+blockquote footer::before{color:#E65100;}
+
 .scroll-text blockquote p{
 	font-size:16px!important;
 }
