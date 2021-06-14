@@ -698,7 +698,7 @@ const offsetVal = '90%';
     }},offset: offsetVal,}
   );
 
-  //hide image and change chart, no image 
+  //hide image, last text box
   new Waypoint({
     element: document.getElementById('map3-14'),
     handler: direction => {if (direction === 'down') {
@@ -712,5 +712,398 @@ const offsetVal = '90%';
   );
 
 // Waypoint transition for chart 4
+
+  //first text box wihthout image
+  new Waypoint({
+    element: document.getElementById('map4-1'),
+    handler: direction => {if (direction === 'down') {
+      transition_chart_in_1("#case4-2","#g-ai4-2");
+    } else {
+      transition_chart_out_1("#case4-2","#g-ai4-2");
+    }},offset: offsetVal,}
+  );
+
+  //show first image from empty image
+  new Waypoint({
+    element: document.getElementById('map4-2'),
+    handler: direction => {if (direction === 'down') {
+      transition_changeimg("./img/weapon-beingoverseas-fb.jpg");
+      $(".screenshot-img").on('load',function(){
+        $(".screenshot-background").fadeIn(500);
+      });
+    } else {
+      transition_hidechangeshot("");
+    }},offset: offsetVal,}
+  );
+
+  //hide image and change chart, no image 
+  new Waypoint({
+    element: document.getElementById('map4-3'),
+    handler: direction => {if (direction === 'down') {
+      transition_hidechangeshot("");
+      transition_chart_2("#case4-2","#g-ai4-2","#case4-1","#g-ai4-1");
+    } else {
+      transition_changeimg("./img/weapon-beingoverseas-fb.jpg")
+      $(".screenshot-img").on('load',function(){
+        $(".screenshot-background").fadeIn(500);
+      });
+      transition_chart_2("#case4-1","#g-ai4-1","#case4-2","#g-ai4-2");
+    }},offset: offsetVal,}
+  );
+
+  //empty text box used to show image
+  new Waypoint({
+    element: document.getElementById('map4-3-1'),
+    handler: direction => {if (direction === 'down') {
+      transition_changeshot("./img/weapon-wenweipo-webpage.jpg")
+
+    } else {
+      transition_hidechangeshot("");
+    }},offset: offsetVal,}
+  );
+
+  //hide image and change chart, no image 
+  new Waypoint({
+    element: document.getElementById('map4-4'),
+    handler: direction => {if (direction === 'down') {
+      transition_hidechangeshot("");
+      transition_chart_2("#case4-1","#g-ai4-1","#case4-3","#g-ai4-3");
+      transition_chart_2("","","#case4-4","#g-ai4-4");
+    } else {
+      transition_changeimg("./img/weapon-wenweipo-webpage.jpg")
+      $(".screenshot-img").on('load',function(){
+        $(".screenshot-background").fadeIn(500);
+      });
+      transition_chart_2("#case4-3","#g-ai4-3","#case4-1","#g-ai4-1");
+      transition_chart_2("#case4-4","#g-ai4-4","","");
+    }},offset: offsetVal,}
+  );
+
+  //empty text box used to show image
+  new Waypoint({
+    element: document.getElementById('map4-4-1'),
+    handler: direction => {if (direction === 'down') {
+      transition_changeshot("./img/weapon-grassroot-supportph-fb.png")
+    } else {
+      transition_hidechangeshot("");
+    }},offset: offsetVal,}
+  );  
+
+  //hide image, last text box
+  new Waypoint({
+    element: document.getElementById('map4-5'),
+    handler: direction => {if (direction === 'down') {
+      transition_hidechangeshot("");
+    } else {
+      transition_changeimg("./img/weapon-grassroot-supportph-fb.png")
+      $(".screenshot-img").on('load',function(){
+        $(".screenshot-background").fadeIn(500);
+      });
+    }},offset: offsetVal,}
+  );
+
+// Waypoint transition for chart 5
+
+  //first text box wihthout image
+  new Waypoint({
+    element: document.getElementById('map5-1'),
+    handler: direction => {if (direction === 'down') {
+      transition_chart_in_1("#case5-3","#g-ai5-4");
+    } else {
+      transition_chart_out_1("#case5-3","#g-ai5-4");
+    }},offset: offsetVal,}
+  );
+
+  //empty text box used to show image
+  new Waypoint({
+    element: document.getElementById('map5-1-1'),
+    handler: direction => {if (direction === 'down') {
+      transition_changeshot("./img/plot-rakyat-fb.jpeg")
+    } else {
+      transition_hidechangeshot("");
+    }},offset: offsetVal,}
+  );  
+
+  //hide image and change chart, no image 
+  new Waypoint({
+    element: document.getElementById('map5-2'),
+    handler: direction => {if (direction === 'down') {
+      transition_hidechangeshot("");
+      transition_chart_2("#case5-3","#g-ai5-4","#case5-2","#g-ai5-3");
+    } else {
+      transition_changeimg("./img/plot-rakyat-fb.jpeg")
+      $(".screenshot-img").on('load',function(){
+        $(".screenshot-background").fadeIn(500);
+      });
+      transition_chart_2("#case5-2","#g-ai5-3","#case5-3","#g-ai5-4");
+    }},offset: offsetVal,}
+  );
+
+  //empty text box used to show image
+  new Waypoint({
+    element: document.getElementById('map5-2-1'),
+    handler: direction => {if (direction === 'down') {
+      transition_changeshot("./img/plot-epochtimes-youtube.jpg")
+    } else {
+      transition_hidechangeshot("");
+    }},offset: offsetVal,}
+  );  
+
+  //hide image and change chart, no image 
+  new Waypoint({
+    element: document.getElementById('map5-3'),
+    handler: direction => {if (direction === 'down') {
+      transition_hidechangeshot("");
+      transition_chart_2("#case5-2","#g-ai5-3","#case5-3","#g-ai5-5");
+    } else {
+      transition_changeimg("./img/plot-epochtimes-youtube.jpg")
+      $(".screenshot-img").on('load',function(){
+        $(".screenshot-background").fadeIn(500);
+      });
+      transition_chart_2("#case5-3","#g-ai5-5","#case5-2","#g-ai5-3");
+    }},offset: offsetVal,}
+  );
+
+  //empty text box used to show image
+  new Waypoint({
+    element: document.getElementById('map5-3-1'),
+    handler: direction => {if (direction === 'down') {
+      transition_changeshot("./img/police-rape-fb.jpg")
+    } else {
+      transition_hidechangeshot("");
+    }},offset: offsetVal,}
+  ); 
+
+  //hide image and change chart, no image 
+  new Waypoint({
+    element: document.getElementById('map5-4'),
+    handler: direction => {if (direction === 'down') {
+      transition_hidechangeshot("");
+      transition_chart_2("#case5-3","#g-ai5-5","#case5-1","#g-ai5-1");
+    } else {
+      transition_changeimg("./img/plot-epochtimes-youtube.jpg")
+      $(".screenshot-img").on('load',function(){
+        $(".screenshot-background").fadeIn(500);
+      });
+      transition_chart_2("#case5-1","#g-ai5-1","#case5-3","#g-ai5-5");
+    }},offset: offsetVal,}
+  );
+
+  //empty text box used to show image
+  new Waypoint({
+    element: document.getElementById('map5-4-1'),
+    handler: direction => {if (direction === 'down') {
+      transition_changeshot("./img/police-rape-dayushow-youtube.jpg")
+    } else {
+      transition_hidechangeshot("");
+    }},offset: offsetVal,}
+  );   
+
+  //hide image and change chart, no image 
+  new Waypoint({
+    element: document.getElementById('map5-5'),
+    handler: direction => {if (direction === 'down') {
+      transition_hidechangeshot("");
+      transition_chart_2("#case5-1","#g-ai5-1","#case5-4","#g-ai5-6");
+      transition_chart_2("","","#case5-5","#g-ai5-7");
+    } else {
+      transition_changeimg("./img/plot-epochtimes-youtube.jpg")
+      $(".screenshot-img").on('load',function(){
+        $(".screenshot-background").fadeIn(500);
+      });
+      transition_chart_2("#case5-4","#g-ai5-6","#case5-1","#g-ai5-1");
+      transition_chart_2("#case5-5","#g-ai5-7","","");
+    }},offset: offsetVal,}
+  );
+
+  //show image from no image
+  new Waypoint({
+    element: document.getElementById('map5-6'),
+    handler: direction => {if (direction === 'down') {
+      transition_changeshot("./img/police-rape-fb-2.png")
+    } else {
+      transition_hidechangeshot("");
+    }},offset: offsetVal,}
+  );
+
+  //hide image and change chart, no image 
+  new Waypoint({
+    element: document.getElementById('map5-7'),
+    handler: direction => {if (direction === 'down') {
+      transition_hidechangeshot("");
+      transition_chart_2("#case5-4","#g-ai5-6","#case5-2","#g-ai5-2");
+      transition_chart_2("#case5-5","#g-ai5-7","","");
+    } else {
+      transition_changeimg("./img/police-rape-fb-2.png")
+      $(".screenshot-img").on('load',function(){
+        $(".screenshot-background").fadeIn(500);
+      });
+      transition_chart_2("#case5-2","#g-ai5-2","#case5-4","#g-ai5-6");
+      transition_chart_2("","","#case5-5","#g-ai5-7");
+    }},offset: offsetVal,}
+  );
+
+  //empty text box used to show image
+  new Waypoint({
+    element: document.getElementById('map5-7-1'),
+    handler: direction => {if (direction === 'down') {
+      transition_changeshot("./img/police-rape-epochtimes-youtube.jpg")
+    } else {
+      transition_hidechangeshot("");
+    }},offset: offsetVal,}
+  );   
+
+  //empty text box to hide the image for last text
+  new Waypoint({
+    element: document.getElementById('map5-7-2'),
+    handler: direction => {if (direction === 'down') {
+      transition_hidechangeshot("");
+    } else {
+      transition_changeshot("./img/police-rape-epochtimes-youtube.jpg");
+    }},offset: offsetVal,}
+  );
+
+// Waypoint transition for chart 6
+
+    //first text box wihthout image
+  new Waypoint({
+    element: document.getElementById('map6-1'),
+    handler: direction => {if (direction === 'down') {
+      transition_chart_in_1("#case6-4","#g-ai6-5");
+    } else {
+      transition_chart_out_1("#case6-4","#g-ai6-5");
+    }},offset: offsetVal,}
+  );
+
+  //show first image from empty image
+  new Waypoint({
+    element: document.getElementById('map6-2'),
+    handler: direction => {if (direction === 'down') {
+      transition_changeimg("./img/us-plot-video-chinese-embassy-fb.jpg");
+      $(".screenshot-img").on('load',function(){
+        $(".screenshot-background").fadeIn(500);
+      });
+    } else {
+      transition_hidechangeshot("");
+    }},offset: offsetVal,}
+  );
+
+  //hide image and change chart, no image 
+  new Waypoint({
+    element: document.getElementById('map6-3'),
+    handler: direction => {if (direction === 'down') {
+      transition_hidechangeshot("");
+      transition_chart_2("#case6-4","#g-ai6-5","#case6-3","#g-ai6-3");
+    } else {
+      transition_changeimg("./img/us-plot-video-chinese-embassy-fb.jpg")
+      $(".screenshot-img").on('load',function(){
+        $(".screenshot-background").fadeIn(500);
+      });
+      transition_chart_2("#case6-3","#g-ai6-3","#case6-4","#g-ai6-5");
+    }},offset: offsetVal,}
+  );
+
+  //show image from no image
+  new Waypoint({
+    element: document.getElementById('map6-4'),
+    handler: direction => {if (direction === 'down') {
+      transition_changeshot("./img/us-plot-video-ciao-youtube.jpg")
+    } else {
+      transition_hidechangeshot("");
+    }},offset: offsetVal,}
+  );
+
+  //hide image and change chart, no image 
+  new Waypoint({
+    element: document.getElementById('map6-7'),
+    handler: direction => {if (direction === 'down') {
+      transition_hidechangeshot("");
+      transition_chart_2("#case6-3","#g-ai6-3","#case6-2","#g-ai6-2");
+    } else {
+      transition_changeimg("./img/us-plot-video-ciao-youtube.jpg")
+      $(".screenshot-img").on('load',function(){
+        $(".screenshot-background").fadeIn(500);
+      });
+      transition_chart_2("#case6-2","#g-ai6-2","#case6-3","#g-ai6-3");
+    }},offset: offsetVal,}
+  );
+
+  //show image from no image
+  new Waypoint({
+    element: document.getElementById('map6-8'),
+    handler: direction => {if (direction === 'down') {
+      transition_changeshot("./img/us-plot-video-ziondaily-youtube.jpg")
+    } else {
+      transition_hidechangeshot("");
+    }},offset: offsetVal,}
+  );
+
+  //hide image and change chart, no image 
+  new Waypoint({
+    element: document.getElementById('map6-9'),
+    handler: direction => {if (direction === 'down') {
+      transition_hidechangeshot("");
+      transition_chart_2("#case6-2","#g-ai6-2","#case6-4","#g-ai6-4");
+    } else {
+      transition_changeimg("./img/us-plot-video-ciao-youtube.jpg")
+      $(".screenshot-img").on('load',function(){
+        $(".screenshot-background").fadeIn(500);
+      });
+      transition_chart_2("#case6-4","#g-ai6-4","#case6-2","#g-ai6-2");
+    }},offset: offsetVal,}
+  );
+
+  //show image from no image
+  new Waypoint({
+    element: document.getElementById('map6-10'),
+    handler: direction => {if (direction === 'down') {
+      transition_changeshot("./img/ned-video-chinese-embassy-fb.jpg")
+    } else {
+      transition_hidechangeshot("");
+    }},offset: offsetVal,}
+  );
+
+  //hide image and change chart, no image 
+  new Waypoint({
+    element: document.getElementById('map6-11'),
+    handler: direction => {if (direction === 'down') {
+      transition_hidechangeshot("");
+      transition_chart_2("#case6-4","#g-ai6-4","#case6-1","#g-ai6-1");
+    } else {
+      transition_changeimg("./img/ned-video-chinese-embassy-fb.jpg")
+      $(".screenshot-img").on('load',function(){
+        $(".screenshot-background").fadeIn(500);
+      });
+      transition_chart_2("#case6-1","#g-ai6-1","#case6-4","#g-ai6-4");
+    }},offset: offsetVal,}
+  );
+
+  //empty text box used to show image
+  new Waypoint({
+    element: document.getElementById('map6-11-1'),
+    handler: direction => {if (direction === 'down') {
+      transition_changeshot("./img/ned-video-beijingreview-youtube.jpg")
+    } else {
+      transition_hidechangeshot("");
+    }},offset: offsetVal,}
+  );  
+
+  //hide image, last text box
+  new Waypoint({
+    element: document.getElementById('map6-12'),
+    handler: direction => {if (direction === 'down') {
+      transition_hidechangeshot("");
+    } else {
+      transition_changeimg("./img/ned-video-beijingreview-youtube.jpg")
+      $(".screenshot-img").on('load',function(){
+        $(".screenshot-background").fadeIn(500);
+      });
+    }},offset: offsetVal,}
+  );
+
+
+
+
+  
 
 
