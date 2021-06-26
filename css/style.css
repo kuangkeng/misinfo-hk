@@ -2,13 +2,16 @@
 html,body{width:100%; overflow-x: hidden !important;}
 body{color:#212121;}
 h1{text-shadow:2px 3px 0 #f2f2f2}
-h1,h2, .uk-text-lead{font-family:'Newsreader',serif!important;font-weight:700!important;}
-h3,p{font-weight:400!important;}
+h1, h1.uk-heading-medium, h2, .uk-text-lead{font-family:'Newsreader',serif!important;font-weight:700;}
+h2.uk-heading-small{color: #FFECB3!important;}
+h3,p{font-family:'Newsreader',serif}
 .uk-light{color: #ffffff;}
 .uk-light .uk-text-lead{color: #ffffff;}
 .uk-light .uk-navbar-nav>li>a{color: #ffffff;}
 .uk-light .uk-navbar-item{color: #ffffff;}
 .uk-container-xsmall{max-width: 600px;}
+a{text-decoration: underline;}
+.uk-card-primary.uk-card-body .uk-link, .uk-card-primary.uk-card-body a, .uk-card-primary>:not([class*=uk-card-media]) .uk-link, .uk-card-primary>:not([class*=uk-card-media]) a, .uk-card-secondary.uk-card-body .uk-link, .uk-card-secondary.uk-card-body a, .uk-card-secondary>:not([class*=uk-card-media]) .uk-link, .uk-card-secondary>:not([class*=uk-card-media]) a, .uk-light .uk-link, .uk-light a, .uk-offcanvas-bar .uk-link, .uk-offcanvas-bar a, .uk-overlay-primary .uk-link, .uk-overlay-primary a, .uk-section-primary:not(.uk-preserve-color) .uk-link, .uk-section-primary:not(.uk-preserve-color) a, .uk-section-secondary:not(.uk-preserve-color) .uk-link, .uk-section-secondary:not(.uk-preserve-color) a, .uk-tile-primary:not(.uk-preserve-color) .uk-link, .uk-tile-primary:not(.uk-preserve-color) a, .uk-tile-secondary:not(.uk-preserve-color) .uk-link, .uk-tile-secondary:not(.uk-preserve-color) a{color: #2196F3;}
 
 /* SYTLING FOR TOP GRAPHIC */
 #headline-container {
@@ -132,12 +135,12 @@ h3,p{font-weight:400!important;}
 blockquote {
 	border-left: 3px solid #009688;
 	padding-left:20px;
-	color:#666;
-	font-family: Georgia, Times, "Times New Roman", serif;
 	font-style: italic;
 }
 
-blockquote footer::before{color:#E65100;}
+blockquote p{color: #666; font-family: 'Roboto', sans-serif;}
+
+blockquote footer::before{color:#666;}
 
 .scroll-text blockquote p{
 	font-size:16px!important;
@@ -155,7 +158,6 @@ blockquote footer::before{color:#E65100;}
 .uk-alert-secondary{color:#fff;background:#000;}
 
 /* Custom styles */
-#intro p{font-weight:400;}
 #intro .uk-text-large{font-weight:300;}
 
 /* Responsive */
