@@ -104,11 +104,12 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map1-2'),
     handler: direction => {if (direction === 'down') {
-      transition_showshot();
+      transition_changeshot("./img/fire-bus-global-times-chinese-webpage.jpg")
     } else {
-      transition_hideshot();}},offset: offsetVal,}
+      transition_hidechangeshot("");
+    }},offset: offsetVal,}
   );
-
+  
   new Waypoint({
     element: document.getElementById('map1-3'),
     handler: direction => {if (direction === 'down') {
@@ -585,17 +586,17 @@ const offsetVal = '90%';
     element: document.getElementById('map3-7'),
     handler: direction => {if (direction === 'down') {
       transition_hidechangeshot("");
-      transition_chart_2("#case3-1","#g-ai3-1","#case3-5","#g-ai3-5");
+      transition_chart_2("#case3-1","#g-ai3-1","#case3-5","");
       transition_chart_2("","","#case3-6","#g-ai3-6");
-      transition_chart_2("","","#case3-7","#g-ai3-7");
+      transition_chart_2("","","#case3-7","");
     } else {
       transition_changeimg("./img/us-diplomat-wenweipo-webpage.jpg");
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
-      transition_chart_2("#case3-5","#g-ai3-5","#case3-1","#g-ai3-1");
+      transition_chart_2("#case3-5","","#case3-1","#g-ai3-1");
       transition_chart_2("#case3-6","#g-ai3-6","","");
-      transition_chart_2("#case3-7","#g-ai3-7","","");
+      transition_chart_2("#case3-7","","","");
     }},offset: offsetVal,}
   );
 
@@ -624,17 +625,17 @@ const offsetVal = '90%';
     element: document.getElementById('map3-9'),
     handler: direction => {if (direction === 'down') {
       transition_hidechangeshot("");
-      transition_chart_2("#case3-5","#g-ai3-5","#case3-8","#g-ai3-8");
+      transition_chart_2("#case3-5","","#case3-8","#g-ai3-8");
       transition_chart_2("#case3-6","#g-ai3-6","","");
-      transition_chart_2("#case3-7","#g-ai3-7","","");
+      transition_chart_2("#case3-7","","","");
     } else {
       transition_changeimg("./img/us-diplomat-joshuawong-fb.jpg");
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
-      transition_chart_2("#case3-8","#g-ai3-8","#case3-5","#g-ai3-5");
+      transition_chart_2("#case3-8","#g-ai3-8","#case3-5","");
       transition_chart_2("","","#case3-6","#g-ai3-6");
-      transition_chart_2("","","#case3-7","#g-ai3-7");
+      transition_chart_2("","","#case3-7","");
     }},offset: offsetVal,}
   );
 
