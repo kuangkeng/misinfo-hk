@@ -1,5 +1,5 @@
 /* Core HTML */
-html,body{width:100%; overflow-x: hidden !important;}
+html,body{width:100%; overflow-x: hidden !important; background-color: #222;}
 body{color:#212121;}
 h1{text-shadow:2px 3px 0 #f2f2f2}
 h1, h1.uk-heading-medium, h2, .uk-text-lead{font-family:'Newsreader',serif!important;font-weight:700;}
