@@ -80,6 +80,7 @@ a{text-decoration: underline;}
 	mix-blend-mode:normal;
 	font-style:normal;
 	position:static;
+	background-color: rgba(0,0,0,0.4);
 }
 .g-artboard .g-pstyle0 {
 	height:12px;
@@ -92,7 +93,7 @@ a{text-decoration: underline;}
 .st0{fill:#FFCC00;stroke:#FFCC00;stroke-miterlimit:10;}
 .st1{fill:#3B5998;stroke:#3B5998;stroke-miterlimit:10;}
 .st2{fill:#C8102E;stroke:#C8102E;stroke-miterlimit:10;}
-.st3{fill:#D3D3D3;stroke:#D3D3D3;stroke-width:3;stroke-miterlimit:10;}
+.st3{fill:#c6c6c6;stroke:#c6c6c6;stroke-width:3;stroke-miterlimit:10;}
 .st0a{fill:none;stroke:#FFCC00;stroke-width:5}
 .st1a{fill:none;stroke:#3B5998;stroke-width:5}
 .st2a{fill:none;stroke:#C8102E;stroke-width:5}
@@ -160,6 +161,10 @@ blockquote footer::before{color:#666;}
 /* Custom styles */
 #intro .uk-text-large{font-weight:300;}
 
+.uk-overlay-default {
+	background-color:#ededed;
+}
+
 /* Responsive */
 @media (max-width: 1600px){
 	.uk-text-large{font-size: 1.25rem;}
@@ -197,7 +202,7 @@ blockquote footer::before{color:#666;}
 	background: #000;
 }
 
-.scroll-text{border:1px solid #ddd;}
+.scroll-text{border:1px solid #ccc;}
 .scroll-text h3{margin:0;font-size:14px;font-weight:bold;}
 .scroll-text .uk-text-meta{color:#666;margin:0 0 10px 0;font-size:10px!important;letter-spacing:0.5px;}
 .scroll-text time{color:#f44336;font-size:20px;font-weight:300;line-height:0.8em;}
