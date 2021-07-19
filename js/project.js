@@ -104,7 +104,10 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map1-2'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/fire-bus-global-times-chinese-webpage.jpg")
+      transition_changeimg("./img/fire-bus-global-times-chinese-webpage.jpg");
+      $(".screenshot-img").on('load',function(){
+        $(".screenshot-background").fadeIn(500);
+      });
     } else {
       transition_hidechangeshot("");
     }},offset: offsetVal,}
@@ -121,11 +124,14 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map1-5'),
     handler: direction => {if (direction === 'down') {
-      transition_hideshot();
+      transition_hidechangeshot("");
       transition_chart_2("#case1-1","#g-ai1-1","#case1-2","#g-ai1-2");
     } else {
+      transition_changeimg("./img/fire-bus-photo.jpg");
+        $(".screenshot-img").on('load',function(){
+          $(".screenshot-background").fadeIn(500);
+        });
       transition_chart_2("#case1-2","#g-ai1-2","#case1-1","#g-ai1-1");
-      transition_showshot();
     }},offset: offsetVal,}
       
   );
@@ -133,9 +139,12 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map1-6'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/fire-bus-global-times-english-webpage.jpg");
+      transition_changeimg("./img/fire-bus-global-times-english-webpage.jpg");
+      $(".screenshot-img").on('load',function(){
+        $(".screenshot-background").fadeIn(500);
+      });
     } else {      
-      transition_hidechangeshot("./img/fire-bus-photo.jpg");
+      transition_hidechangeshot("");
     }},offset: offsetVal,}
   );
 
@@ -143,31 +152,40 @@ const offsetVal = '90%';
     element: document.getElementById('map1-7'),
     handler: direction => {if (direction === 'down') {
       transition_chart_2("#case1-2","#g-ai1-2","#case1-3","#g-ai1-3");
-      transition_hideshot();
+      transition_hidechangeshot("");
     } else {
+      transition_changeimg("./img/fire-bus-global-times-english-webpage.jpg");
+        $(".screenshot-img").on('load',function(){
+          $(".screenshot-background").fadeIn(500);
+        });
       transition_chart_2("#case1-3","#g-ai1-3","#case1-2","#g-ai1-2");
-      transition_showshot();
     }},offset: offsetVal,}
   );
 
   new Waypoint({
     element: document.getElementById('map1-8'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/fire-bus-sina-chinese-webpage.jpg");
+      transition_changeimg("./img/fire-bus-sina-chinese-webpage.jpg");
+      $(".screenshot-img").on('load',function(){
+        $(".screenshot-background").fadeIn(500);
+      });
     } else {
-      transition_hidechangeshot("./img/fire-bus-global-times-english-webpage.jpg");
+      transition_hidechangeshot("");
     }},offset: offsetVal,}
   );
 
   new Waypoint({
     element: document.getElementById('map1-9'),
     handler: direction => {if (direction === 'down') {
-      transition_hideshot();
+      transition_hidechangeshot("");
       transition_chart_2("#case1-3","#g-ai1-3","#case1-4","#g-ai1-4");
       transition_chart_2("#case1-3","#g-ai1-3","#case1-5","#g-ai1-5");
       transition_chart_2("#case1-3","#g-ai1-3","#case1-6","#g-ai1-6");
     } else {
-      transition_showshot();
+      transition_changeimg("./img/fire-bus-sina-chinese-webpage.jpg");
+        $(".screenshot-img").on('load',function(){
+          $(".screenshot-background").fadeIn(500);
+        });
       transition_chart_2("#case1-4","#g-ai1-4","#case1-3","#g-ai1-3");
       transition_chart_2("#case1-5","#g-ai1-5","#case1-3","#g-ai1-3");
       transition_chart_2("#case1-6","#g-ai1-6","#case1-3","#g-ai1-3");
@@ -179,29 +197,23 @@ const offsetVal = '90%';
     handler: direction => {if (direction === 'down') {
       transition_chart_2("#case1-5","#g-ai1-5");
       transition_chart_2("#case1-6","#g-ai1-6");
-      transition_changeshot("./img/fire-bus-sinchew-original-title-fb.jpg");
+      transition_changeimg("./img/fire-bus-sinchew-original-title-fb.jpg");
+      $(".screenshot-img").on('load',function(){
+        $(".screenshot-background").fadeIn(500);
+      });
     } else {
       transition_chart_2("","","#case1-5","#g-ai1-5");
       transition_chart_2("","","#case1-6","#g-ai1-6");
-      transition_hidechangeshot("./img/fire-bus-sina-chinese-webpage.jpg");
+      transition_hidechangeshot("");
       }},offset: offsetVal,}
   );
 
   new Waypoint({
     element: document.getElementById('map1-11'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/fire-bus-sinchew-fb-edit-history.png");
-    } else {
-      transition_changeshot("./img/fire-bus-sinchew-original-title-fb.jpg");
-      }},offset: offsetVal,}
-  );
-
-  new Waypoint({
-    element: document.getElementById('map1-12'),
-    handler: direction => {if (direction === 'down') {
       transition_changeshot("./img/fire-bus-sinchew-corrected-title-fb.jpg");
     } else {
-      transition_changeshot("./img/fire-bus-sinchew-fb-edit-history.png");
+      transition_changeshot("./img/fire-bus-sinchew-original-title-fb.jpg");
       }},offset: offsetVal,}
   );
   
@@ -217,9 +229,12 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map1-14'),
     handler: direction => {if (direction === 'down') {
-      transition_hideshot();
+      transition_hidechangeshot("");
     } else {
-      transition_showshot();
+      transition_changeimg("./img/fire-bus-sinchew-apology-fb.jpg");
+        $(".screenshot-img").on('load',function(){
+          $(".screenshot-background").fadeIn(500);
+        });
       }},offset: offsetVal,}
   );
 
@@ -237,18 +252,21 @@ const offsetVal = '90%';
     handler: direction => {if (direction === 'down') {
       transition_changeshot("./img/fire-bus-penanglang-fb-page.jpg");
     } else {
-      transition_hidechangeshot("./img/fire-bus-sinchew-apology-fb.jpg");
+      transition_hidechangeshot("");
       }},offset: offsetVal,}
   );
 
   new Waypoint({
     element: document.getElementById('map1-17'),
     handler: direction => {if (direction === 'down') {
-      transition_hideshot();
+      transition_hidechangeshot("");
       transition_chart_2("#case1-8","#g-ai1-8","#case1-13","#g-ai1-12");
     } else {
+      transition_changeimg("./img/fire-bus-penanglang-fb-page.jpg");
+        $(".screenshot-img").on('load',function(){
+          $(".screenshot-background").fadeIn(500);
+        });
       transition_chart_2("#case1-13","#g-ai1-12","#case1-8","#g-ai1-8");
-      transition_showshot();
       }},offset: offsetVal,}
   );
 
@@ -257,18 +275,21 @@ const offsetVal = '90%';
     handler: direction => {if (direction === 'down') {
       transition_changeshot("./img/fire-bus-komnitikuantan-fb.jpg");
     } else {
-      transition_hidechangeshot("./img/fire-bus-penanglang-fb-page.jpg");
+      transition_hidechangeshot("");
       }},offset: offsetVal,}
   );
 
   new Waypoint({
     element: document.getElementById('map1-18'),
     handler: direction => {if (direction === 'down') {
-      transition_hideshot();
+      transition_hidechangeshot("");
       transition_chart_2("#case1-13","#g-ai1-12","#case1-5","#g-ai1-5");
     } else {
+      transition_changeimg("./img/fire-bus-komnitikuantan-fb.jpg");
+        $(".screenshot-img").on('load',function(){
+          $(".screenshot-background").fadeIn(500);
+        });
       transition_chart_2("#case1-5","#g-ai1-5","#case1-13","#g-ai1-12");
-      transition_showshot();
       }},offset: offsetVal,}
   );
 
@@ -277,7 +298,7 @@ const offsetVal = '90%';
     handler: direction => {if (direction === 'down') {
       transition_changeshot("./img/fire-bus-nanyang-webpage.jpg");
     } else {
-      transition_hidechangeshot("./img/fire-bus-komnitikuantan-fb.jpg");
+      transition_hidechangeshot("");
       }},offset: offsetVal,}
   );
 
@@ -291,21 +312,16 @@ const offsetVal = '90%';
   );
 
   new Waypoint({
-    element: document.getElementById('map1-20'),
-    handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/fire-bus-nanyang-edit-history-fb.png");
-    } else {
-      transition_changeshot("./img/fire-bus-nanyang-fb.jpg");
-      }},offset: offsetVal,}
-  );
-  new Waypoint({
     element: document.getElementById('map1-21'),
     handler: direction => {if (direction === 'down') {
-      transition_hideshot();
+      transition_hidechangeshot("");
       transition_chart_2("#case1-5","#g-ai1-5","#case1-9","#g-ai1-9");
     } else {
+      transition_changeimg("./img/fire-bus-nanyang-fb.jpg");
+        $(".screenshot-img").on('load',function(){
+          $(".screenshot-background").fadeIn(500);
+        });
       transition_chart_2("#case1-9","#g-ai1-9","#case1-5","#g-ai1-5");
-      transition_showshot();
       }},offset: offsetVal,}
   );
 
@@ -314,27 +330,33 @@ const offsetVal = '90%';
     handler: direction => {if (direction === 'down') {
       transition_changeshot("./img/fire-bus-ipohstation-fb.jpg");
     } else {
-      transition_hidechangeshot("./img/fire-bus-nanyang-edit-history-fb.png");
+      transition_hidechangeshot("");
       }},offset: offsetVal,}
   );
 
   new Waypoint({
     element: document.getElementById('map1-25'),
     handler: direction => {if (direction === 'down') {
-      transition_hideshot();
+      transition_hidechangeshot("");
       transition_chart_2("#case1-9","#g-ai1-9","#case1-6","#g-ai1-6");
     } else {
+      transition_changeimg("./img/fire-bus-ipohstation-fb.jpg");
+        $(".screenshot-img").on('load',function(){
+          $(".screenshot-background").fadeIn(500);
+        });
       transition_chart_2("#case1-6","#g-ai1-6","#case1-9","#g-ai1-9");
-      transition_showshot();
       }},offset: offsetVal,}
   );
 
   new Waypoint({
     element: document.getElementById('map1-26'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/fire-bus-orientaldaily-original-title-webpage.jpg");
+      transition_changeimg("./img/fire-bus-orientaldaily-original-title-webpage.jpg");
+      $(".screenshot-img").on('load',function(){
+        $(".screenshot-background").fadeIn(500);
+      });
     } else {
-      transition_hidechangeshot("./img/fire-bus-ipohstation-fb.jpg");
+      transition_hidechangeshot("");
       }},offset: offsetVal,}
   );
 
@@ -355,135 +377,13 @@ const offsetVal = '90%';
       transition_chart_2("#case1-6","#g-ai1-6","#case1-11");
       transition_chart_2("#case1-6","#g-ai1-6","#case1-12");
     } else {
+      transition_changeimg("./img/fire-bus-orientaldaily-fb.jpg");
+        $(".screenshot-img").on('load',function(){
+          $(".screenshot-background").fadeIn(500);
+        });
       transition_chart_2("#case1-10","#g-ai1-10","#case1-6","#g-ai1-6");
       transition_chart_2("#case1-11");
       transition_chart_2("#case1-12");
-      transition_changeshot("./img/fire-bus-orientaldaily-fb.jpg");
-    }},offset: offsetVal,}
-  );
-
-// Waypoint transition for chart 2
-  //first text box wihthout image
-  new Waypoint({
-    element: document.getElementById('map2-1'),
-    handler: direction => {if (direction === 'down') {
-      transition_chart_in_1("#case2-3","#g-ai2-3");
-    } else {
-      transition_chart_out_1("#case2-3","#g-ai2-3");
-    }},offset: offsetVal,}
-  );
-
-  //show first image from empty image
-  new Waypoint({
-    element: document.getElementById('map2-2'),
-    handler: direction => {if (direction === 'down') {
-      transition_changeimg("./img/foreign-agent-chinapress-webpage.jpg");
-      $(".screenshot-img").on('load',function(){
-        $(".screenshot-background").fadeIn(500);
-      });
-    } else {
-      transition_hidechangeshot("");
-    }},offset: offsetVal,}
-  );
-  
-  //hide image and change chart, no image  
-  new Waypoint({
-    element: document.getElementById('map2-4'),
-    handler: direction => {if (direction === 'down') {
-      transition_hidechangeshot("");
-      transition_chart_2("#case2-3","#g-ai2-3","#case2-1","#g-ai2-1");
-    } else {
-      transition_changeimg("./img/foreign-agent-chinapress-webpage.jpg");
-      $(".screenshot-img").on('load',function(){
-        $(".screenshot-background").fadeIn(500);
-      });
-      transition_chart_2("#case2-1","#g-ai2-1","#case2-3","#g-ai2-3");
-    }},offset: offsetVal,}
-  );
-
-  //empty text box used to show image
-  new Waypoint({
-    element: document.getElementById('map2-4-1'),
-    handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/foreign-agent-cctv-webpage.png");
-    } else {
-      transition_hidechangeshot("");
-    }},offset: offsetVal,}
-  );
-
-  //transit from an image to another without hiding image
-  new Waypoint({
-    element: document.getElementById('map2-5'),
-    handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/foreign-agent-chinapress-fb-merged.png");
-      transition_chart_2("#case2-1","#g-ai2-1","#case2-3","#g-ai2-3");
-    } else {
-      transition_changeshot("./img/foreign-agent-cctv-webpage.png");
-      transition_chart_2("#case2-3","#g-ai2-3","#case2-1","#g-ai2-1");
-    }},offset: offsetVal,}
-  );
-
-  new Waypoint({
-    element: document.getElementById('map2-6'),
-    handler: direction => {if (direction === 'down') {
-      transition_hidechangeshot("");
-    } else {
-      transition_changeshot("./img/foreign-agent-chinapress-fb-merged.png");
-    }},offset: offsetVal,}
-  );
-
-  new Waypoint({
-    element: document.getElementById('map2-7'),
-    handler: direction => {if (direction === 'down') {
-      transition_chart_2("#case2-3","#g-ai2-3","#case2-2","#g-ai2-2");
-    } else {
-      transition_chart_2("#case2-2","#g-ai2-2","#case2-3","#g-ai2-3");
-    }},offset: offsetVal,}
-  );
-
-  new Waypoint({
-    element: document.getElementById('map2-8'),
-    handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/foreign-agent-takungpao-webpage.png");
-    } else {
-      transition_hidechangeshot("");
-    }},offset: offsetVal,}
-  );
-  new Waypoint({
-    element: document.getElementById('map2-9'),
-    handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/foreign-agent-afp-factcheck-webpage.jpg");
-    } else {
-      transition_changeshot("./img/foreign-agent-takungpao-webpage.png");
-    }},offset: offsetVal,}
-  );
-
-  new Waypoint({
-    element: document.getElementById('map2-10'),
-    handler: direction => {if (direction === 'down') {
-      transition_hidechangeshot("");
-      transition_chart_2("#case2-2","#g-ai2-2","#case2-4","#g-ai2-4");
-    } else {
-      transition_changeshot("./img/foreign-agent-afp-factcheck-webpage.jpg");
-      transition_chart_2("#case2-4","#g-ai2-4","#case2-2","#g-ai2-2");
-    }},offset: offsetVal,}
-  );
-
-  new Waypoint({
-    element: document.getElementById('map2-10-1'),
-    handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/foreign-agent-nanyang-webpage.jpg");
-    } else {
-      transition_hidechangeshot("");
-    }},offset: offsetVal,}
-  );
-
-  new Waypoint({
-    element: document.getElementById('map2-10-2'),
-    handler: direction => {if (direction === 'down') {
-      transition_hidechangeshot("");
-    } else {
-      transition_changeshot("./img/foreign-agent-nanyang-webpage.jpg");
     }},offset: offsetVal,}
   );
 
@@ -610,16 +510,6 @@ const offsetVal = '90%';
     }},offset: offsetVal,}
   );
 
-  //transition between 2 images
-  new Waypoint({
-    element: document.getElementById('map3-8'),
-    handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/us-diplomat-joshuawong-fb.jpg")
-    } else {
-      transition_changeshot("./img/us-diplomat-seehua-fb.jpg")
-    }},offset: offsetVal,}
-  );
-
   //hide image and change chart, no image  
   new Waypoint({
     element: document.getElementById('map3-9'),
@@ -629,7 +519,7 @@ const offsetVal = '90%';
       transition_chart_2("#case3-6","#g-ai3-6","","");
       transition_chart_2("#case3-7","","","");
     } else {
-      transition_changeimg("./img/us-diplomat-joshuawong-fb.jpg");
+      transition_changeimg("./img/us-diplomat-seehua-fb.jpg");
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -701,7 +591,7 @@ const offsetVal = '90%';
 
   //hide image, last text box
   new Waypoint({
-    element: document.getElementById('map3-14'),
+    element: document.getElementById('map3-13-1'),
     handler: direction => {if (direction === 'down') {
       transition_hidechangeshot("");
     } else {

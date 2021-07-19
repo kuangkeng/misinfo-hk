@@ -209,7 +209,7 @@ blockquote footer::before{color:#666;}
 .scroll-text time span:first-child{display:block;color:#212121;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:5px;font-weight:500;}
 .scroll-text time span:last-child{font-size:12px;text-transform:uppercase;font-weight:500;}
 .scroll-text .uk-label{background:#f44336;font-size:12px;font-weight:300;}
-.scroll-text p{margin:0;font-size:14px;}
+.scroll-text p{margin:0;font-size:17px;}
 
 @media screen and (max-width: 500px) {
 	.scroll-text {
@@ -221,7 +221,7 @@ blockquote footer::before{color:#666;}
 
 	.scroll-text,
 	blockquote p {
-		font-size: 14px;
+		font-size: 17px;
 	}
 }
 
