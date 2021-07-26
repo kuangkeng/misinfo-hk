@@ -104,7 +104,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map1-2'),
     handler: direction => {if (direction === 'down') {
-      transition_changeimg("./img/fire-bus-global-times-chinese-webpage.jpg");
+      transition_changeimg("../img/fire-bus-global-times-chinese-webpage.jpg");
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -116,9 +116,9 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map1-3'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/fire-bus-photo.jpg");
+      transition_changeshot("../img/fire-bus-photo.jpg");
     } else {
-      transition_changeshot("./img/fire-bus-global-times-chinese-webpage.jpg");}},offset: offsetVal,}
+      transition_changeshot("../img/fire-bus-global-times-chinese-webpage.jpg");}},offset: offsetVal,}
   );
 
   new Waypoint({
@@ -127,7 +127,7 @@ const offsetVal = '90%';
       transition_hidechangeshot("");
       transition_chart_2("#case1-1","#g-ai1-1","#case1-2","#g-ai1-2");
     } else {
-      transition_changeimg("./img/fire-bus-photo.jpg");
+      transition_changeimg("../img/fire-bus-photo.jpg");
         $(".screenshot-img").on('load',function(){
           $(".screenshot-background").fadeIn(500);
         });
@@ -139,7 +139,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map1-6'),
     handler: direction => {if (direction === 'down') {
-      transition_changeimg("./img/fire-bus-global-times-english-webpage.jpg");
+      transition_changeimg("../img/fire-bus-global-times-english-webpage.jpg");
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -154,7 +154,7 @@ const offsetVal = '90%';
       transition_chart_2("#case1-2","#g-ai1-2","#case1-3","#g-ai1-3");
       transition_hidechangeshot("");
     } else {
-      transition_changeimg("./img/fire-bus-global-times-english-webpage.jpg");
+      transition_changeimg("../img/fire-bus-global-times-english-webpage.jpg");
         $(".screenshot-img").on('load',function(){
           $(".screenshot-background").fadeIn(500);
         });
@@ -165,7 +165,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map1-8'),
     handler: direction => {if (direction === 'down') {
-      transition_changeimg("./img/fire-bus-sina-chinese-webpage.jpg");
+      transition_changeimg("../img/fire-bus-sina-chinese-webpage.jpg");
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -182,7 +182,7 @@ const offsetVal = '90%';
       transition_chart_2("#case1-3","#g-ai1-3","#case1-5","#g-ai1-5");
       transition_chart_2("#case1-3","#g-ai1-3","#case1-6","#g-ai1-6");
     } else {
-      transition_changeimg("./img/fire-bus-sina-chinese-webpage.jpg");
+      transition_changeimg("../img/fire-bus-sina-chinese-webpage.jpg");
         $(".screenshot-img").on('load',function(){
           $(".screenshot-background").fadeIn(500);
         });
@@ -197,7 +197,7 @@ const offsetVal = '90%';
     handler: direction => {if (direction === 'down') {
       transition_chart_2("#case1-5","#g-ai1-5");
       transition_chart_2("#case1-6","#g-ai1-6");
-      transition_changeimg("./img/fire-bus-sinchew-original-title-fb.jpg");
+      transition_changeimg("../img/fire-bus-sinchew-original-title-fb.jpg");
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -211,18 +211,18 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map1-11'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/fire-bus-sinchew-corrected-title-fb.jpg");
+      transition_changeshot("../img/fire-bus-sinchew-corrected-title-fb.jpg");
     } else {
-      transition_changeshot("./img/fire-bus-sinchew-original-title-fb.jpg");
+      transition_changeshot("../img/fire-bus-sinchew-original-title-fb.jpg");
       }},offset: offsetVal,}
   );
   
   new Waypoint({
     element: document.getElementById('map1-13'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/fire-bus-sinchew-apology-fb.jpg");
+      transition_changeshot("../img/fire-bus-sinchew-apology-fb.jpg");
     } else {
-      transition_changeshot("./img/fire-bus-sinchew-corrected-title-fb.jpg");
+      transition_changeshot("../img/fire-bus-sinchew-corrected-title-fb.jpg");
       }},offset: offsetVal,}
   );
 
@@ -231,7 +231,7 @@ const offsetVal = '90%';
     handler: direction => {if (direction === 'down') {
       transition_hidechangeshot("");
     } else {
-      transition_changeimg("./img/fire-bus-sinchew-apology-fb.jpg");
+      transition_changeimg("../img/fire-bus-sinchew-apology-fb.jpg");
         $(".screenshot-img").on('load',function(){
           $(".screenshot-background").fadeIn(500);
         });
@@ -250,7 +250,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map1-16-1'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/fire-bus-penanglang-fb-page.jpg");
+      transition_changeshot("../img/fire-bus-penanglang-fb-page.jpg");
     } else {
       transition_hidechangeshot("");
       }},offset: offsetVal,}
@@ -262,7 +262,7 @@ const offsetVal = '90%';
       transition_hidechangeshot("");
       transition_chart_2("#case1-8","#g-ai1-8","#case1-13","#g-ai1-12");
     } else {
-      transition_changeimg("./img/fire-bus-penanglang-fb-page.jpg");
+      transition_changeimg("../img/fire-bus-penanglang-fb-page.jpg");
         $(".screenshot-img").on('load',function(){
           $(".screenshot-background").fadeIn(500);
         });
@@ -273,7 +273,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map1-17-1'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/fire-bus-komnitikuantan-fb.jpg");
+      transition_changeshot("../img/fire-bus-komnitikuantan-fb.jpg");
     } else {
       transition_hidechangeshot("");
       }},offset: offsetVal,}
@@ -285,7 +285,7 @@ const offsetVal = '90%';
       transition_hidechangeshot("");
       transition_chart_2("#case1-13","#g-ai1-12","#case1-5","#g-ai1-5");
     } else {
-      transition_changeimg("./img/fire-bus-komnitikuantan-fb.jpg");
+      transition_changeimg("../img/fire-bus-komnitikuantan-fb.jpg");
         $(".screenshot-img").on('load',function(){
           $(".screenshot-background").fadeIn(500);
         });
@@ -296,7 +296,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map1-18-1'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/fire-bus-nanyang-webpage.jpg");
+      transition_changeshot("../img/fire-bus-nanyang-webpage.jpg");
     } else {
       transition_hidechangeshot("");
       }},offset: offsetVal,}
@@ -305,9 +305,9 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map1-19'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/fire-bus-nanyang-fb.jpg");
+      transition_changeshot("../img/fire-bus-nanyang-fb.jpg");
     } else {
-      transition_changeshot("./img/fire-bus-nanyang-webpage.jpg");
+      transition_changeshot("../img/fire-bus-nanyang-webpage.jpg");
       }},offset: offsetVal,}
   );
 
@@ -317,7 +317,7 @@ const offsetVal = '90%';
       transition_hidechangeshot("");
       transition_chart_2("#case1-5","#g-ai1-5","#case1-9","#g-ai1-9");
     } else {
-      transition_changeimg("./img/fire-bus-nanyang-fb.jpg");
+      transition_changeimg("../img/fire-bus-nanyang-fb.jpg");
         $(".screenshot-img").on('load',function(){
           $(".screenshot-background").fadeIn(500);
         });
@@ -328,7 +328,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map1-21-1'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/fire-bus-ipohstation-fb.jpg");
+      transition_changeshot("../img/fire-bus-ipohstation-fb.jpg");
     } else {
       transition_hidechangeshot("");
       }},offset: offsetVal,}
@@ -340,7 +340,7 @@ const offsetVal = '90%';
       transition_hidechangeshot("");
       transition_chart_2("#case1-9","#g-ai1-9","#case1-6","#g-ai1-6");
     } else {
-      transition_changeimg("./img/fire-bus-ipohstation-fb.jpg");
+      transition_changeimg("../img/fire-bus-ipohstation-fb.jpg");
         $(".screenshot-img").on('load',function(){
           $(".screenshot-background").fadeIn(500);
         });
@@ -351,7 +351,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map1-26'),
     handler: direction => {if (direction === 'down') {
-      transition_changeimg("./img/fire-bus-orientaldaily-original-title-webpage.jpg");
+      transition_changeimg("../img/fire-bus-orientaldaily-original-title-webpage.jpg");
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -363,9 +363,9 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map1-27'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/fire-bus-orientaldaily-fb.jpg");
+      transition_changeshot("../img/fire-bus-orientaldaily-fb.jpg");
     } else {
-      transition_changeshot("./img/fire-bus-orientaldaily-original-title-webpage.jpg");
+      transition_changeshot("../img/fire-bus-orientaldaily-original-title-webpage.jpg");
       }},offset: offsetVal,}
   );
   
@@ -377,7 +377,7 @@ const offsetVal = '90%';
       transition_chart_2("#case1-6","#g-ai1-6","#case1-11");
       transition_chart_2("#case1-6","#g-ai1-6","#case1-12");
     } else {
-      transition_changeimg("./img/fire-bus-orientaldaily-fb.jpg");
+      transition_changeimg("../img/fire-bus-orientaldaily-fb.jpg");
         $(".screenshot-img").on('load',function(){
           $(".screenshot-background").fadeIn(500);
         });
@@ -403,7 +403,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map3-2'),
     handler: direction => {if (direction === 'down') {
-      transition_changeimg("./img/us-diplotmat-nanyang-webpage.jpg");
+      transition_changeimg("../img/us-diplotmat-nanyang-webpage.jpg");
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -416,9 +416,9 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map3-3'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/us-diplotmat-nanyang-fb.png");
+      transition_changeshot("../img/us-diplotmat-nanyang-fb.png");
     } else {
-      transition_changeshot("./img/us-diplotmat-nanyang-webpage.jpg");
+      transition_changeshot("../img/us-diplotmat-nanyang-webpage.jpg");
     }},offset: offsetVal,}
   );
 
@@ -429,7 +429,7 @@ const offsetVal = '90%';
       transition_hidechangeshot("");
       transition_chart_2("#case3-4","#g-ai3-4","#case3-3","#g-ai3-3");
     } else {
-      transition_changeimg("./img/us-diplotmat-nanyang-fb.png");
+      transition_changeimg("../img/us-diplotmat-nanyang-fb.png");
         $(".screenshot-img").on('load',function(){
           $(".screenshot-background").fadeIn(500);
         });
@@ -441,7 +441,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map3-4-1'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/us-diplomat-ifeng-webpage.jpg")
+      transition_changeshot("../img/us-diplomat-ifeng-webpage.jpg")
     } else {
       transition_hidechangeshot("");
     }},offset: offsetVal,}
@@ -454,7 +454,7 @@ const offsetVal = '90%';
       transition_hidechangeshot("");
       transition_chart_2("#case3-3","#g-ai3-3","#case3-2","#g-ai3-2");
     } else {
-      transition_changeimg("./img/us-diplomat-ifeng-webpage.jpg");
+      transition_changeimg("../img/us-diplomat-ifeng-webpage.jpg");
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -475,7 +475,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map3-6-1'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/us-diplomat-wenweipo-webpage.jpg")
+      transition_changeshot("../img/us-diplomat-wenweipo-webpage.jpg")
     } else {
       transition_hidechangeshot("");
     }},offset: offsetVal,}
@@ -490,7 +490,7 @@ const offsetVal = '90%';
       transition_chart_2("","","#case3-6","#g-ai3-6");
       transition_chart_2("","","#case3-7","");
     } else {
-      transition_changeimg("./img/us-diplomat-wenweipo-webpage.jpg");
+      transition_changeimg("../img/us-diplomat-wenweipo-webpage.jpg");
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -504,7 +504,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map3-7-1'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/us-diplomat-seehua-fb.jpg")
+      transition_changeshot("../img/us-diplomat-seehua-fb.jpg")
     } else {
       transition_hidechangeshot("");
     }},offset: offsetVal,}
@@ -519,7 +519,7 @@ const offsetVal = '90%';
       transition_chart_2("#case3-6","#g-ai3-6","","");
       transition_chart_2("#case3-7","","","");
     } else {
-      transition_changeimg("./img/us-diplomat-seehua-fb.jpg");
+      transition_changeimg("../img/us-diplomat-seehua-fb.jpg");
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -533,7 +533,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map3-10'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/us-diplomat-embassy-fb.jpg")
+      transition_changeshot("../img/us-diplomat-embassy-fb.jpg")
     } else {
       transition_hidechangeshot("");
     }},offset: offsetVal,}
@@ -546,7 +546,7 @@ const offsetVal = '90%';
       transition_hidechangeshot("");
       transition_chart_2("#case3-8","#g-ai3-8",".case3-10","#g-ai3-10");
     } else {
-      transition_changeimg("./img/us-diplomat-embassy-fb.jpg");
+      transition_changeimg("../img/us-diplomat-embassy-fb.jpg");
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -558,7 +558,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map3-11-1'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/us-diplomat-jb-fb.png")
+      transition_changeshot("../img/us-diplomat-jb-fb.png")
     } else {
       transition_hidechangeshot("");
     }},offset: offsetVal,}
@@ -571,7 +571,7 @@ const offsetVal = '90%';
       transition_hidechangeshot("");
       transition_chart_2(".case3-10","#g-ai3-10","#case3-9","#g-ai3-9");
     } else {
-      transition_changeimg("./img/us-diplomat-jb-fb.png");
+      transition_changeimg("../img/us-diplomat-jb-fb.png");
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -583,7 +583,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map3-13'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/us-diplomat-radioantarabangsachina-fb.jpg")
+      transition_changeshot("../img/us-diplomat-radioantarabangsachina-fb.jpg")
     } else {
       transition_hidechangeshot("");
     }},offset: offsetVal,}
@@ -595,7 +595,7 @@ const offsetVal = '90%';
     handler: direction => {if (direction === 'down') {
       transition_hidechangeshot("");
     } else {
-      transition_changeimg("./img/us-diplomat-radioantarabangsachina-fb.jpg")
+      transition_changeimg("../img/us-diplomat-radioantarabangsachina-fb.jpg")
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -618,7 +618,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map4-2'),
     handler: direction => {if (direction === 'down') {
-      transition_changeimg("./img/weapon-beingoverseas-fb.jpg");
+      transition_changeimg("../img/weapon-beingoverseas-fb.jpg");
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -634,7 +634,7 @@ const offsetVal = '90%';
       transition_hidechangeshot("");
       transition_chart_2("#case4-2","#g-ai4-2","#case4-1","#g-ai4-1");
     } else {
-      transition_changeimg("./img/weapon-beingoverseas-fb.jpg")
+      transition_changeimg("../img/weapon-beingoverseas-fb.jpg")
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -646,7 +646,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map4-3-1'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/weapon-wenweipo-webpage.jpg")
+      transition_changeshot("../img/weapon-wenweipo-webpage.jpg")
 
     } else {
       transition_hidechangeshot("");
@@ -661,7 +661,7 @@ const offsetVal = '90%';
       transition_chart_2("#case4-1","#g-ai4-1","#case4-3","#g-ai4-3");
       transition_chart_2("","","#case4-4","#g-ai4-4");
     } else {
-      transition_changeimg("./img/weapon-wenweipo-webpage.jpg")
+      transition_changeimg("../img/weapon-wenweipo-webpage.jpg")
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -674,7 +674,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map4-4-1'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/weapon-grassroot-supportph-fb.png")
+      transition_changeshot("../img/weapon-grassroot-supportph-fb.png")
     } else {
       transition_hidechangeshot("");
     }},offset: offsetVal,}
@@ -686,7 +686,7 @@ const offsetVal = '90%';
     handler: direction => {if (direction === 'down') {
       transition_hidechangeshot("");
     } else {
-      transition_changeimg("./img/weapon-grassroot-supportph-fb.png")
+      transition_changeimg("../img/weapon-grassroot-supportph-fb.png")
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -709,7 +709,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map5-1-1'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/plot-rakyat-fb.jpeg")
+      transition_changeshot("../img/plot-rakyat-fb.jpeg")
     } else {
       transition_hidechangeshot("");
     }},offset: offsetVal,}
@@ -722,7 +722,7 @@ const offsetVal = '90%';
       transition_hidechangeshot("");
       transition_chart_2("#case5-3","#g-ai5-4","#case5-2","#g-ai5-3");
     } else {
-      transition_changeimg("./img/plot-rakyat-fb.jpeg")
+      transition_changeimg("../img/plot-rakyat-fb.jpeg")
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -734,7 +734,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map5-2-1'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/plot-epochtimes-youtube.jpg")
+      transition_changeshot("../img/plot-epochtimes-youtube.jpg")
     } else {
       transition_hidechangeshot("");
     }},offset: offsetVal,}
@@ -747,7 +747,7 @@ const offsetVal = '90%';
       transition_hidechangeshot("");
       transition_chart_2("#case5-2","#g-ai5-3","#case5-3","#g-ai5-5");
     } else {
-      transition_changeimg("./img/plot-epochtimes-youtube.jpg")
+      transition_changeimg("../img/plot-epochtimes-youtube.jpg")
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -759,7 +759,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map5-3-1'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/police-rape-fb.jpg")
+      transition_changeshot("../img/police-rape-fb.jpg")
     } else {
       transition_hidechangeshot("");
     }},offset: offsetVal,}
@@ -772,7 +772,7 @@ const offsetVal = '90%';
       transition_hidechangeshot("");
       transition_chart_2("#case5-3","#g-ai5-5","#case5-1","#g-ai5-1");
     } else {
-      transition_changeimg("./img/plot-epochtimes-youtube.jpg")
+      transition_changeimg("../img/plot-epochtimes-youtube.jpg")
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -784,7 +784,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map5-4-1'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/police-rape-dayushow-youtube.jpg")
+      transition_changeshot("../img/police-rape-dayushow-youtube.jpg")
     } else {
       transition_hidechangeshot("");
     }},offset: offsetVal,}
@@ -798,7 +798,7 @@ const offsetVal = '90%';
       transition_chart_2("#case5-1","#g-ai5-1","#case5-4","#g-ai5-6");
       transition_chart_2("","","#case5-5","#g-ai5-7");
     } else {
-      transition_changeimg("./img/plot-epochtimes-youtube.jpg")
+      transition_changeimg("../img/plot-epochtimes-youtube.jpg")
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -811,7 +811,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map5-6'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/police-rape-fb-2.png")
+      transition_changeshot("../img/police-rape-fb-2.png")
     } else {
       transition_hidechangeshot("");
     }},offset: offsetVal,}
@@ -825,7 +825,7 @@ const offsetVal = '90%';
       transition_chart_2("#case5-4","#g-ai5-6","#case5-2","#g-ai5-2");
       transition_chart_2("#case5-5","#g-ai5-7","","");
     } else {
-      transition_changeimg("./img/police-rape-fb-2.png")
+      transition_changeimg("../img/police-rape-fb-2.png")
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -838,7 +838,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map5-7-1'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/police-rape-epochtimes-youtube.jpg")
+      transition_changeshot("../img/police-rape-epochtimes-youtube.jpg")
     } else {
       transition_hidechangeshot("");
     }},offset: offsetVal,}
@@ -850,7 +850,7 @@ const offsetVal = '90%';
     handler: direction => {if (direction === 'down') {
       transition_hidechangeshot("");
     } else {
-      transition_changeshot("./img/police-rape-epochtimes-youtube.jpg");
+      transition_changeshot("../img/police-rape-epochtimes-youtube.jpg");
     }},offset: offsetVal,}
   );
 
@@ -870,7 +870,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map6-2'),
     handler: direction => {if (direction === 'down') {
-      transition_changeimg("./img/us-plot-video-chinese-embassy-fb.jpg");
+      transition_changeimg("../img/us-plot-video-chinese-embassy-fb.jpg");
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -886,7 +886,7 @@ const offsetVal = '90%';
       transition_hidechangeshot("");
       transition_chart_2("#case6-4","#g-ai6-5","#case6-3","#g-ai6-3");
     } else {
-      transition_changeimg("./img/us-plot-video-chinese-embassy-fb.jpg")
+      transition_changeimg("../img/us-plot-video-chinese-embassy-fb.jpg")
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -898,7 +898,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map6-4'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/us-plot-video-ciao-youtube.jpg")
+      transition_changeshot("../img/us-plot-video-ciao-youtube.jpg")
     } else {
       transition_hidechangeshot("");
     }},offset: offsetVal,}
@@ -911,7 +911,7 @@ const offsetVal = '90%';
       transition_hidechangeshot("");
       transition_chart_2("#case6-3","#g-ai6-3","#case6-2","#g-ai6-2");
     } else {
-      transition_changeimg("./img/us-plot-video-ciao-youtube.jpg")
+      transition_changeimg("../img/us-plot-video-ciao-youtube.jpg")
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -923,7 +923,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map6-8'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/us-plot-video-ziondaily-youtube.jpg")
+      transition_changeshot("../img/us-plot-video-ziondaily-youtube.jpg")
     } else {
       transition_hidechangeshot("");
     }},offset: offsetVal,}
@@ -936,7 +936,7 @@ const offsetVal = '90%';
       transition_hidechangeshot("");
       transition_chart_2("#case6-2","#g-ai6-2","#case6-4","#g-ai6-4");
     } else {
-      transition_changeimg("./img/us-plot-video-ciao-youtube.jpg")
+      transition_changeimg("../img/us-plot-video-ciao-youtube.jpg")
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -948,7 +948,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map6-10'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/ned-video-chinese-embassy-fb.jpg")
+      transition_changeshot("../img/ned-video-chinese-embassy-fb.jpg")
     } else {
       transition_hidechangeshot("");
     }},offset: offsetVal,}
@@ -961,7 +961,7 @@ const offsetVal = '90%';
       transition_hidechangeshot("");
       transition_chart_2("#case6-4","#g-ai6-4","#case6-1","#g-ai6-1");
     } else {
-      transition_changeimg("./img/ned-video-chinese-embassy-fb.jpg")
+      transition_changeimg("../img/ned-video-chinese-embassy-fb.jpg")
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -973,7 +973,7 @@ const offsetVal = '90%';
   new Waypoint({
     element: document.getElementById('map6-11-1'),
     handler: direction => {if (direction === 'down') {
-      transition_changeshot("./img/ned-video-beijingreview-youtube.jpg")
+      transition_changeshot("../img/ned-video-beijingreview-youtube.jpg")
     } else {
       transition_hidechangeshot("");
     }},offset: offsetVal,}
@@ -985,7 +985,7 @@ const offsetVal = '90%';
     handler: direction => {if (direction === 'down') {
       transition_hidechangeshot("");
     } else {
-      transition_changeimg("./img/ned-video-beijingreview-youtube.jpg")
+      transition_changeimg("../img/ned-video-beijingreview-youtube.jpg")
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
