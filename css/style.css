@@ -210,6 +210,15 @@ blockquote footer::before{color:#666;}
 .scroll-text .uk-label{background:#f44336;font-size:12px;font-weight:300;}
 .scroll-text p{margin:0;font-size:17px;}
 
+#linechart_1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width:100%;
+}
+.chart_note {
+	font-size: 14px;
+}
+
 @media screen and (max-width: 500px) {
 	.scroll-text {
 		margin-bottom: 550px !important;
