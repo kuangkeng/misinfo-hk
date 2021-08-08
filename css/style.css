@@ -215,6 +215,7 @@ blockquote footer::before{color:#666;}
 	margin-bottom: 20px;
 	width:100%;
 }
+#container_chart{height: 421px;}
 .chart_note {
 	font-size: 14px;
 }
