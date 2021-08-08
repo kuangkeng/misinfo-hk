@@ -995,7 +995,6 @@ const offsetVal = '90%';
 
 //chart for Chinese embassy FB page
 function makechart() {
-  console.log("make chart!");
   Highcharts.setOptions({
       lang: {
         thousandsSep: ','
