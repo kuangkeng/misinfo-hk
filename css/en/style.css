@@ -11,6 +11,8 @@ h2.uk-heading-small{color: #FFECB3!important;}
 .uk-container-xsmall{max-width: 600px;}
 a{text-decoration: underline;}
 .uk-card-primary.uk-card-body .uk-link, .uk-card-primary.uk-card-body a, .uk-card-primary>:not([class*=uk-card-media]) .uk-link, .uk-card-primary>:not([class*=uk-card-media]) a, .uk-card-secondary.uk-card-body .uk-link, .uk-card-secondary.uk-card-body a, .uk-card-secondary>:not([class*=uk-card-media]) .uk-link, .uk-card-secondary>:not([class*=uk-card-media]) a, .uk-light .uk-link, .uk-light a, .uk-offcanvas-bar .uk-link, .uk-offcanvas-bar a, .uk-overlay-primary .uk-link, .uk-overlay-primary a, .uk-section-primary:not(.uk-preserve-color) .uk-link, .uk-section-primary:not(.uk-preserve-color) a, .uk-section-secondary:not(.uk-preserve-color) .uk-link, .uk-section-secondary:not(.uk-preserve-color) a, .uk-tile-primary:not(.uk-preserve-color) .uk-link, .uk-tile-primary:not(.uk-preserve-color) a, .uk-tile-secondary:not(.uk-preserve-color) .uk-link, .uk-tile-secondary:not(.uk-preserve-color) a{color: #2196F3;}
+#myBtn {display: none; position: fixed; bottom: 20px; right: 30px; z-index: 99; font-size: 18px; border: none; outline: none; background-color: #4a50bd; color: white; cursor: pointer; padding: 15px; border-radius: 4px;
+}
 
 /* SYTLING FOR TOP GRAPHIC */
 #headline-container {
