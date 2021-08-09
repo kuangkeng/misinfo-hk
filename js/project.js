@@ -765,7 +765,7 @@ const offsetVal = '90%';
       transition_hidechangeshot("");
       transition_chart_2("#case5-3","#g-ai5-5","#case5-1","#g-ai5-1");
     } else {
-      transition_changeimg("../img/plot-epochtimes-youtube.jpg")
+      transition_changeimg("../img/police-rape-fb.jpg")
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
@@ -791,7 +791,7 @@ const offsetVal = '90%';
       transition_chart_2("#case5-1","#g-ai5-1","#case5-4","#g-ai5-6");
       transition_chart_2("","","#case5-5","#g-ai5-7");
     } else {
-      transition_changeimg("../img/plot-epochtimes-youtube.jpg")
+      transition_changeimg("../img/police-rape-dayushow-youtube.jpg")
       $(".screenshot-img").on('load',function(){
         $(".screenshot-background").fadeIn(500);
       });
